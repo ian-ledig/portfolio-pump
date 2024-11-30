@@ -1,0 +1,14 @@
+.navigation-bar{
+    background-color: #FDF9E0;
+    display: flex;
+    gap: 3%;
+    padding: 12px 20px 12px 20px;
+
+    .navigation-item{
+        
+    }
+}
+
+.body{
+    
+}
