@@ -1,5 +1,6 @@
 import Image from "next/image";
 import InkImageComponent from "./components/ink-image/ink-image.tsx";
+import { FaMapMarkerAlt } from 'react-icons/fa';
 import "./home.css"
 
 export default function Home() {
@@ -36,16 +37,23 @@ export default function Home() {
             </div>
             <div className="profile-card-bio">
               <div className="title-1">Ian LEDIG</div>
-              <div className="subtitle-1">Fullstack Developer</div>
-              <div>Yokohama, Japan</div>
+              <div className="subtitle-1 info-text">Fullstack Developer</div>
+              <div className="flex items-center info-text justify-center">
+                <FaMapMarkerAlt 
+                  size={12} 
+                  className="mb-3.5 mr-1"
+                  style={{ color: "var(--secondary)" }}
+                />
+                <div className="subtitle-3 mb-3">Yokohama, Japan</div>
+              </div>
             </div>
             <div className="profile-card-education">
-              <div>Master's Degree in Computer Science</div>
-              <div>University of Laval, Canada</div>
-              <div>Bachelor's Degree SIGD-IOTIA</div>
-              <div>University of Côte-d'Azure, France</div>
-              <div>Technology Diploma in Computer Science</div>
-              <div>University of Strasbourg, France</div>
+              <div className="subtitle-2">Master's Degree in Computer Science</div>
+              <div className="subtitle-3 info-text mb-3">University of Laval, Canada</div>
+              <div className="subtitle-2">Bachelor's Degree SIGD-IOTIA</div>
+              <div className="subtitle-3 info-text mb-3">University of Côte-d'Azure, France</div>
+              <div className="subtitle-2">Technology Diploma in Computer Science</div>
+              <div className="subtitle-3 info-text mb-3">University of Strasbourg, France</div>
             </div>
           </div>
         </div>
