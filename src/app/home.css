@@ -1,11 +1,17 @@
 .navigation-bar{
-    background-color: var(--primary);
     display: flex;
-    gap: 3%;
-    padding: 12px 20px 12px 20px;
+    justify-content: space-between;
+    background-color: var(--primary);
+    padding: 13px 20px 13px 20px;
 
-    .navigation-item{
+    .navigation-bar-links{
+        display: flex;
+        align-self: center;
+        gap: 3%;
+        
+        .navigation-item{
 
+        }
     }
 }
 

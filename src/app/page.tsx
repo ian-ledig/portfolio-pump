@@ -8,18 +8,41 @@ export default function Home() {
   return (
     <div>
       <div className="navigation-bar">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Ian LEDIG logo"
-          width={100}
-          height={0}
-          priority
-        />
-        <a href="" className="navigation-item">Home</a>
-        <a href="" className="navigation-item">About</a>
-        <a href="" className="navigation-item">Skills</a>
-        <a href="" className="navigation-item">Projects</a>
+        <div className="navigation-bar-links">
+          <Image
+            className="dark:invert"
+            src="/next.svg"
+            alt="Ian LEDIG logo"
+            width={100}
+            height={0}
+            priority
+          />
+          <a href="" className="navigation-item">Home</a>
+          <a href="" className="navigation-item">About</a>
+          <a href="" className="navigation-item">Skills</a>
+          <a href="" className="navigation-item">Projects</a>
+        </div>
+        <div className="navigation-bar-links">
+          <a href="https://github.com/ian-ledig" target="_blank" className="self-center">
+            <Image
+              src="/github.png"
+              alt="Github logo"
+              width={25}
+              height={0}
+              priority
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/ian-ledig/" target="_blank" className="self-center mr-3">
+            <Image
+              src="/linkedin.png"
+              alt="Linkedin logo"
+              width={25}
+              height={0}
+              priority
+            />
+          </a>
+          <a href="" className="navigation-item button-1">Contact</a>
+        </div>
       </div>
       <div className="body">
         <div className="title title-1">

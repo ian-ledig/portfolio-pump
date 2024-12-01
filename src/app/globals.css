@@ -8,6 +8,7 @@
 
   --primary: #FDF9E0;
   --secondary: #253FD7;
+  --tertiary: #2139be;
 
   --black: #000000;
   --gray: #626567;
@@ -23,6 +24,18 @@
 body {
   color: var(--foreground);
   background: var(--background);
+}
+
+.button-1{
+  background-color: var(--secondary);
+  color: white;
+  padding: 5px 40px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.button-1:hover{
+  background-color: var(--tertiary);
 }
 
 .title-1{
