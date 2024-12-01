@@ -1,4 +1,5 @@
 import Image from "next/image";
+import RandomTextComponent from "./components/random-text/random-text.tsx";
 import InkImageComponent from "./components/ink-image/ink-image.tsx";
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import "./home.css"
@@ -21,6 +22,11 @@ export default function Home() {
         <a href="" className="navigation-item">Projects</a>
       </div>
       <div className="body">
+        <div className="title title-1">
+          <div>Need a</div>
+          <RandomTextComponent />
+          <div>?</div>
+        </div>
         <div className="home">
           <div className="home-picture">
             <InkImageComponent src="background.png" alt="Sakurajima picture"/>
