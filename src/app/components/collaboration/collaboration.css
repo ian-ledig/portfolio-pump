@@ -1,6 +1,6 @@
 .collaboration {
     overflow: hidden;
-    padding: 60px 0;
+    padding: 30px 0;
     background: var(--primary);
     white-space: nowrap;
     position: relative;
@@ -18,6 +18,7 @@
 .collaboration-items img {
     max-height: 50px;
     margin: 0 40px;
+    object-fit: contain;
 }
 
 .collaboration:before,

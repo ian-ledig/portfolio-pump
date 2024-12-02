@@ -3,9 +3,9 @@
 import React, { useEffect, useState } from "react";
 
 const words = [
-  "website for your business",
-  "custom software",
-  "mobile application for IOS and Android",
+  "website for your business?",
+  "custom software?",
+  "mobile application for IOS and Android?",
 ];
 
 const RandomTextComponent: React.FC = () => {

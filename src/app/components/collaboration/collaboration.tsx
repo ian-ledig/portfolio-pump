@@ -11,21 +11,21 @@ const CollaborationComponent: React.FC = () => {
                 <Image
                     src="/collaboration/alysiaonline.png"
                     alt="Alysia Online logo"
-                    width={90}
+                    width={300}
                     height={0}
                     priority
                 />
                 <Image
                     src="/collaboration/forsakenflyff.png"
                     alt="Forsaken Kindgdom logo"
-                    width={90}
+                    width={300}
                     height={0}
                     priority
                 />
                 <Image
                     src="/collaboration/moonflyff.png"
                     alt="Moon Flyff logo"
-                    width={90}
+                    width={300}
                     height={0}
                     priority
                 />
@@ -39,21 +39,21 @@ const CollaborationComponent: React.FC = () => {
                 <Image
                     src="/collaboration/probtp.png"
                     alt="Pro BTP logo"
-                    width={200}
+                    width={300}
                     height={0}
                     priority
                 />
                 <Image
                     src="/collaboration/cawe.png"
                     alt="Cawe logo"
-                    width={200}
+                    width={300}
                     height={0}
                     priority
                 />
                 <Image
                     src="/collaboration/arte.png"
                     alt="Arte logo"
-                    width={200}
+                    width={300}
                     height={0}
                     priority
                 />
@@ -61,21 +61,21 @@ const CollaborationComponent: React.FC = () => {
                 <Image
                     src="/collaboration/alysiaonline.png"
                     alt="Alysia Online logo"
-                    width={90}
+                    width={300}
                     height={0}
                     priority
                 />
                 <Image
                     src="/collaboration/forsakenflyff.png"
                     alt="Forsaken Kindgdom logo"
-                    width={90}
+                    width={300}
                     height={0}
                     priority
                 />
                 <Image
                     src="/collaboration/moonflyff.png"
                     alt="Moon Flyff logo"
-                    width={90}
+                    width={300}
                     height={0}
                     priority
                 />
@@ -89,21 +89,21 @@ const CollaborationComponent: React.FC = () => {
                 <Image
                     src="/collaboration/probtp.png"
                     alt="Pro BTP logo"
-                    width={200}
+                    width={300}
                     height={0}
                     priority
                 />
                 <Image
                     src="/collaboration/cawe.png"
                     alt="Cawe logo"
-                    width={200}
+                    width={300}
                     height={0}
                     priority
                 />
                 <Image
                     src="/collaboration/arte.png"
                     alt="Arte logo"
-                    width={200}
+                    width={300}
                     height={0}
                     priority
                 />

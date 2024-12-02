@@ -22,19 +22,29 @@
 }
 
 @font-face {
-  font-family: 'San Fransisco Light';
-  src: url('fonts/SFUIDisplay-Light.ttf');
+  font-family: 'San Fransisco Black';
+  src: url('fonts/SFUIDisplay-Black.woff');
 }
 
 @font-face {
-  font-family: 'San Fransisco Bold';
-  src: url('fonts/SFUIDisplay-Bold.ttf');
+  font-family: 'San Fransisco Heavy';
+  src: url('fonts/SFUIDisplay-Heavy.woff');
+}
+
+@font-face {
+  font-family: 'San Fransisco Regular';
+  src: url('fonts/SFUIDisplay-Regular.woff');
+}
+
+@font-face {
+  font-family: 'San Fransisco Thin';
+  src: url('fonts/SFUIDisplay-Thin.woff');
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'San Fransisco Light', sans-serif;
+  font-family: 'San Fransisco Regular', sans-serif;
 }
 
 .button-1{
@@ -43,17 +53,35 @@ body {
   padding: 5px 40px;
   border-radius: 12px;
   font-weight: bold;
-  font-family: 'San Fransisco Bold', sans-serif;
 }
 
 .button-1:hover{
   background-color: var(--tertiary);
 }
 
+.font-black{
+  font-family: 'San Fransisco Black', sans-serif;
+}
+
+.font-heavy{
+  font-family: 'San Fransisco Heavy', sans-serif;
+}
+
+.font-regular{
+  font-family: 'San Fransisco Regular', sans-serif;
+}
+
+.font-thin{
+  font-family: 'San Fransisco Thin', sans-serif;
+}
+
 .title-1{
   font-size: 3rem;
   font-weight: bold;
-  font-family: 'San Fransisco Bold', sans-serif;
+}
+
+.title-2{
+  font-size: 2rem;
 }
 
 .subtitle-1{

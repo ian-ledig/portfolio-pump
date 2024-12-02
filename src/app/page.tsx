@@ -18,13 +18,13 @@ export default function Home() {
             priority
           />
           <div className="navigation-separator">|</div>
-          <a href="" className="navigation-item">Home</a>
+          <a href="" className="navigation-item font-heavy">Home</a>
           <div className="navigation-separator">|</div>
-          <a href="" className="navigation-item">About</a>
+          <a href="" className="navigation-item font-heavy">About</a>
           <div className="navigation-separator">|</div>
-          <a href="" className="navigation-item">Skills</a>
+          <a href="" className="navigation-item font-heavy">Skills</a>
           <div className="navigation-separator">|</div>
-          <a href="" className="navigation-item">Projects</a>
+          <a href="" className="navigation-item font-heavy">Projects</a>
           <div className="navigation-separator">|</div>
         </div>
         <div className="navigation-bar-links">
@@ -46,14 +46,14 @@ export default function Home() {
               priority
             />
           </a>
-          <a href="" className="navigation-item button-1">Contact</a>
+          <a href="" className="navigation-item button-1 font-heavy">Contact</a>
         </div>
       </div>
       <div className="body">
-        <div className="title title-1">
+        <div className="title title-1 font-black">
           <div>Need a</div>
           <RandomTextComponent />
-          <div>?</div>
+          <div>_</div>
         </div>
         <div className="home">
           <div className="home-picture">
@@ -70,15 +70,15 @@ export default function Home() {
               />
             </div>
             <div className="profile-card-bio">
-              <div className="title-1">Ian LEDIG</div>
-              <div className="subtitle-1 info-text">Fullstack Developer</div>
+              <div className="title-1 font-black">Ian LEDIG</div>
+              <div className="subtitle-1 info-text font-regular">Fullstack Developer</div>
               <div className="flex items-center info-text justify-center">
                 <FaMapMarkerAlt 
                   size={12} 
                   className="mb-3.5 mr-1"
                   style={{ color: "var(--secondary)" }}
                 />
-                <div className="subtitle-3 mb-3">Yokohama, Japan</div>
+                <div className="subtitle-3 mb-3 font-thin">Yokohama, Japan</div>
               </div>
             </div>
             <div className="profile-card-education">
@@ -91,9 +91,14 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="title title-1">They trusted me_</div>
+        <div className="title title-1 font-black">They trusted me_</div>
         <div className="collaboration">
           <CollaborationComponent />
+        </div>
+        <div className="title-2 text-center font-thin mt-3">Will you be next?</div>
+        <div className="title title-1 font-black">Skills_</div>
+        <div>
+          
         </div>
       </div>
     </div>
