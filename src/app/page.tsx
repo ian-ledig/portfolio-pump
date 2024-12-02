@@ -12,14 +12,19 @@ export default function Home() {
           <Image
             src="/logofull.png"
             alt="Ian LEDIG logo"
-            width={80}
+            width={100}
             height={0}
             priority
           />
+          <div className="navigation-separator">|</div>
           <a href="" className="navigation-item">Home</a>
+          <div className="navigation-separator">|</div>
           <a href="" className="navigation-item">About</a>
+          <div className="navigation-separator">|</div>
           <a href="" className="navigation-item">Skills</a>
+          <div className="navigation-separator">|</div>
           <a href="" className="navigation-item">Projects</a>
+          <div className="navigation-separator">|</div>
         </div>
         <div className="navigation-bar-links">
           <a href="https://github.com/ian-ledig" target="_blank" className="self-center">
@@ -84,6 +89,10 @@ export default function Home() {
               <div className="subtitle-3 info-text mb-3">University of Strasbourg, France</div>
             </div>
           </div>
+        </div>
+        <div className="title title-1">They trusted me_</div>
+        <div className="collaboration">
+
         </div>
       </div>
     </div>
