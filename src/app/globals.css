@@ -21,9 +21,20 @@
   }
 }
 
+@font-face {
+  font-family: 'San Fransisco Light';
+  src: url('fonts/SFUIDisplay-Light.ttf');
+}
+
+@font-face {
+  font-family: 'San Fransisco Bold';
+  src: url('fonts/SFUIDisplay-Bold.ttf');
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
+  font-family: 'San Fransisco Light', sans-serif;
 }
 
 .button-1{
@@ -32,6 +43,7 @@ body {
   padding: 5px 40px;
   border-radius: 12px;
   font-weight: bold;
+  font-family: 'San Fransisco Bold', sans-serif;
 }
 
 .button-1:hover{
@@ -39,8 +51,9 @@ body {
 }
 
 .title-1{
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
+  font-family: 'San Fransisco Bold', sans-serif;
 }
 
 .subtitle-1{

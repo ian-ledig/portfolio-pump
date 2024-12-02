@@ -10,10 +10,9 @@ export default function Home() {
       <div className="navigation-bar">
         <div className="navigation-bar-links">
           <Image
-            className="dark:invert"
-            src="/next.svg"
+            src="/logofull.png"
             alt="Ian LEDIG logo"
-            width={100}
+            width={80}
             height={0}
             priority
           />
@@ -52,7 +51,7 @@ export default function Home() {
         </div>
         <div className="home">
           <div className="home-picture">
-            <InkImageComponent src="background.png" alt="Sakurajima picture"/>
+            <InkImageComponent src="picture0.png" alt="Sakurajima picture"/>
           </div>
           <div className="profile-card">
             <div className="profile-card-picture">
