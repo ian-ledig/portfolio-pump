@@ -1,0 +1,40 @@
+.collaboration {
+    overflow: hidden;
+    padding: 60px 0;
+    background: var(--primary);
+    white-space: nowrap;
+    position: relative;
+}
+
+.collaboration-items {
+    display: flex;
+    animation: 100s slideEffect infinite linear;
+}
+
+.collaboration:hover .collaboration-items {
+    animation-play-state: paused;
+}
+
+.collaboration-items img {
+    max-height: 50px;
+    margin: 0 40px;
+}
+
+.collaboration:before,
+.collaboration:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: '';
+    z-index: 2;
+}
+
+@keyframes slideEffect {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}

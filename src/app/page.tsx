@@ -1,6 +1,7 @@
 import Image from "next/image";
 import RandomTextComponent from "./components/random-text/random-text.tsx";
 import InkImageComponent from "./components/ink-image/ink-image.tsx";
+import CollaborationComponent from "./components/collaboration/collaboration.tsx";
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import "./home.css"
 
@@ -92,7 +93,7 @@ export default function Home() {
         </div>
         <div className="title title-1">They trusted me_</div>
         <div className="collaboration">
-
+          <CollaborationComponent />
         </div>
       </div>
     </div>
