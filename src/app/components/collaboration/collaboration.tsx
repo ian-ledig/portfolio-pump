@@ -18,7 +18,7 @@ const CollaborationComponent: React.FC = () => {
                 <Image
                     src="/collaboration/forsakenflyff.png"
                     alt="Forsaken Kindgdom logo"
-                    width={300}
+                    width={500}
                     height={0}
                     priority
                 />
