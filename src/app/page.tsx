@@ -2,6 +2,7 @@ import Image from "next/image";
 import RandomTextComponent from "./components/random-text/random-text.tsx";
 import InkImageComponent from "./components/ink-image/ink-image.tsx";
 import CollaborationComponent from "./components/collaboration/collaboration.tsx";
+import ProjectCardComponent from "./components/project-card/project-card.tsx";
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import "./home.css"
 
@@ -92,9 +93,7 @@ export default function Home() {
           </div>
         </div>
         <div className="title title-1 font-black">They trusted me_</div>
-        <div className="collaboration">
-          <CollaborationComponent />
-        </div>
+        <CollaborationComponent />
         <div className="title-2 text-center font-thin mt-3">Will you be next?</div>
         <div className="title title-1 font-black">Skills_</div>
         <div className="skill">
@@ -219,7 +218,14 @@ export default function Home() {
         </div>
         <div className="title title-1 font-black">Projects_</div>
         <div className="project">
-
+          <ProjectCardComponent 
+            src="/project/airfrance.png"
+            alt="Air France project"
+          />
+          <ProjectCardComponent 
+            src="/project/moncompteretraite.png"
+            alt="Mon compte retraite project"
+          />
         </div>
       </div>
     </div>
