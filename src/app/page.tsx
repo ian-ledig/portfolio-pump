@@ -226,6 +226,18 @@ export default function Home() {
             src="/project/moncompteretraite.png"
             alt="Mon compte retraite project"
           />
+          <ProjectCardComponent 
+            src="/project/cawe.png"
+            alt="Cawe project"
+          />
+          <ProjectCardComponent 
+            src="/project/kanjitest.png"
+            alt="Japanese vocabulary learn project"
+          />
+          <ProjectCardComponent 
+            src="/project/dynamx.png"
+            alt="Dynamx 3D model converter project"
+          />
         </div>
       </div>
     </div>
