@@ -217,6 +217,10 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="title title-1 font-black">Projects_</div>
+        <div className="project">
+
+        </div>
       </div>
     </div>
   );
