@@ -8,14 +8,13 @@ const NavigationBarComponent: React.FC = () => {
     const [activeSection, setActiveSection] = useState<string>("home");
 
     const handleLinkClick = (event: React.MouseEvent<HTMLAnchorElement>, sectionId: string) => {
-        event.preventDefault(); // Empêche le comportement par défaut
+        event.preventDefault();
         const targetSection = document.getElementById(sectionId);
         
         if (targetSection) {
-            const offset = 80; // Distance à partir du haut (ajustez la valeur selon la hauteur de la navbar)
+            const offset = 80;
             const sectionPosition = targetSection.offsetTop - offset;
 
-            // Scroll smooth vers la position avec l'offset
             window.scrollTo({
                 top: sectionPosition,
                 behavior: "smooth",
@@ -25,8 +24,7 @@ const NavigationBarComponent: React.FC = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            // Obtenez la position de chaque section
-            const sections = document.querySelectorAll<HTMLElement>("#home, #collaboration, #skill, #project");
+            const sections = document.querySelectorAll<HTMLElement>("#home, #collaboration, #skill, #project, #contact");
             let currentSection = "home";
 
             sections.forEach((section) => {
@@ -87,7 +85,7 @@ const NavigationBarComponent: React.FC = () => {
                     priority
                     />
                 </a>
-                <a href="contact" className="navigation-item button-1 font-heavy">Contact</a>
+                <a onClick={(e) => handleLinkClick(e, 'contact')} className="navigation-item button-1 font-heavy" href="">Contact</a>
             </div>
         </div>
     );
