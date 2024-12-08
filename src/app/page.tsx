@@ -242,24 +242,25 @@ export default function Home() {
               </div>
               <div className="footer-detail-item">
                 <div className="footer-detail-item-column">
-                  <div className="font-heavy">Social medias</div>
-                  <a href="" className="font-regular">Linkedin</a>
-                  <a href="" className="font-regular">Github</a>
+                  <div className="font-heavy">Social</div>
+                  <a href="https://www.linkedin.com/in/ian-ledig/" target="_blank" className="font-regular">Linkedin</a>
+                  <a href="https://github.com/ian-ledig" target="_blank" className="font-regular">Github</a>
                 </div>
                 <div className="footer-detail-item-column">
-                  <div className="font-heavy">Social medias</div>
-                  <a href="" className="font-regular">Linkedin</a>
-                  <a href="" className="font-regular">Github</a>
+                  <div className="font-heavy">N/A</div>
+                  <a href="" className="font-regular"></a>
+                  <a href="" className="font-regular"></a>
                 </div>
                 <div className="footer-detail-item-column">
-                  <div className="font-heavy">Social medias</div>
-                  <a href="" className="font-regular">Linkedin</a>
-                  <a href="" className="font-regular">Github</a>
+                  <div className="font-heavy">N/A</div>
+                  <a href="" className="font-regular"></a>
+                  <a href="" className="font-regular"></a>
                 </div>
               </div>
             </div>
             <div>
-              eee
+              <div className="separator mb-3"></div>
+              <div className="text-end opacity-50">Copyright © 2024 Ian LEDIG</div>
             </div>
         </div>
       </div>
