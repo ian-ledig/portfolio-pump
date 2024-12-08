@@ -76,3 +76,7 @@
     align-items: flex-end;
     gap: 4px;
 }
+
+.project-card-detail-container a:hover{
+    opacity: 0.95;
+}

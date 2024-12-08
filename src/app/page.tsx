@@ -227,6 +227,22 @@ export default function Home() {
                 {href:"https://github.com/ian-ledig/FlanToDynamX", image:"/project/icon/github.png"},
               ]}
             />
+            <ProjectCardComponent 
+              src="/project/alysiaonline.png"
+              title="Alysia Online MMORPG"
+              description="Modernizing a older open-source multiplayer game by incorporating current industry gameplay standards, mechanics and optimized the codebase to align with contemporary user expectations and performance benchmarks."
+              technologies={["C++", "SQL"]}
+              links={[]}
+            />
+            <ProjectCardComponent 
+              src="/project/portfoliopump.png"
+              title="Pump Portfolio"
+              description="Portfolio website to showcase my skills and projects."
+              technologies={["React", "Next.js"]}
+              links={[
+                {href:"https://github.com/ian-ledig/portfolio-pump", image:"/project/icon/github.png"},
+              ]}
+            />
           </div>
         </div>
         <div id="contact">
