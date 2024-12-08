@@ -197,8 +197,8 @@ export default function Home() {
               description="Development of “Mon Compte Retraite” mobile application for iOS and Android, ensured communication security, production monitoring and designed batch processes."
               technologies={["Angular", "Ionic", "Java", "Spring", "SQL"]}
               links={[
-                {href:"https://apps.apple.com/fr/app/mon-compte-retraite/id1176066236", image:"/github.png"},
-                {href:"https://play.google.com/store/apps/details?id=fr.agircarrco.smartretraite", image:"/github.png"},
+                {href:"https://play.google.com/store/apps/details?id=fr.agircarrco.smartretraite", image:"/project/icon/android.png"},
+                {href:"https://apps.apple.com/fr/app/mon-compte-retraite/id1176066236", image:"/project/icon/apple.png"},
               ]}
             />
             <ProjectCardComponent 
@@ -214,7 +214,7 @@ export default function Home() {
               description="Interactive app designed to help users to learn and memorize Japanese vocabulary."
               technologies={["Electron", "JavaScript"]}
               links={[
-                {href:"https://github.com/ian-ledig/kanji-test", image:"/github.png"},
+                {href:"https://github.com/ian-ledig/kanji-test", image:"/project/icon/github.png"},
               ]}
             />
             <ProjectCardComponent 
@@ -223,10 +223,44 @@ export default function Home() {
               description="Contains two programs that allow converting Toolbox .java models designed for Minecraft Flan's mod to work with the DynamX mod."
               technologies={["Python", "Java"]}
               links={[
-                {href:"https://github.com/ian-ledig/FlanToDynamX", image:"/github.png"},
+                {href:"https://github.com/ian-ledig/FlanToDynamX", image:"/project/icon/github.png"},
               ]}
             />
           </div>
+        </div>
+        <div className="footer">
+            <div className="footer-detail">
+              <div className="footer-detail-item">
+                <Image
+                  className="object-contain self-start"
+                  src="/logofull.png"
+                  alt="Ian LEDIG logo"
+                  width={100}
+                  height={0}
+                  priority
+                />
+              </div>
+              <div className="footer-detail-item">
+                <div className="footer-detail-item-column">
+                  <div className="font-heavy">Social medias</div>
+                  <a href="" className="font-regular">Linkedin</a>
+                  <a href="" className="font-regular">Github</a>
+                </div>
+                <div className="footer-detail-item-column">
+                  <div className="font-heavy">Social medias</div>
+                  <a href="" className="font-regular">Linkedin</a>
+                  <a href="" className="font-regular">Github</a>
+                </div>
+                <div className="footer-detail-item-column">
+                  <div className="font-heavy">Social medias</div>
+                  <a href="" className="font-regular">Linkedin</a>
+                  <a href="" className="font-regular">Github</a>
+                </div>
+              </div>
+            </div>
+            <div>
+              eee
+            </div>
         </div>
       </div>
     </div>
