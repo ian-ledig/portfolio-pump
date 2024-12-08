@@ -263,6 +263,10 @@ export default function Home() {
                   <div className="font-heavy">Usage</div>
                   <a href="https://github.com/ian-ledig/portfolio-pump/blob/master/LICENSE" target="_blank" className="font-regular">MIT</a>
                 </div>
+                <div className="footer-detail-item-column">
+                  <div className="font-heavy">Other</div>
+                  <a href="https://github.com/ian-ledig/portfolio-pump" target="_blank" className="font-regular">Project source</a>
+                </div>
               </div>
             </div>
             <div>
