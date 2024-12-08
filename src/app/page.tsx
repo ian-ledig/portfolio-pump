@@ -245,16 +245,19 @@ export default function Home() {
                   <div className="font-heavy">Social</div>
                   <a href="https://www.linkedin.com/in/ian-ledig/" target="_blank" className="font-regular">Linkedin</a>
                   <a href="https://github.com/ian-ledig" target="_blank" className="font-regular">Github</a>
+                  <a href="mailto:ian.ledigfr@gmail.com" target="_blank" className="font-regular">Email</a>
                 </div>
                 <div className="footer-detail-item-column">
-                  <div className="font-heavy">N/A</div>
-                  <a href="" className="font-regular"></a>
-                  <a href="" className="font-regular"></a>
+                  <div className="font-heavy">Navigation</div>
+                  <a href="#home" className="font-regular">Home</a>
+                  <a href="#collaboration" className="font-regular">About</a>
+                  <a href="#skill" className="font-regular">Skills</a>
+                  <a href="#project" className="font-regular">Projects</a>
+                  <a href="#contact" className="font-regular">Contact</a>
                 </div>
                 <div className="footer-detail-item-column">
-                  <div className="font-heavy">N/A</div>
-                  <a href="" className="font-regular"></a>
-                  <a href="" className="font-regular"></a>
+                  <div className="font-heavy">Usage</div>
+                  <a href="https://github.com/ian-ledig/portfolio-pump/blob/master/LICENSE" target="_blank" className="font-regular">MIT</a>
                 </div>
               </div>
             </div>
