@@ -11,7 +11,7 @@
   --tertiary: #2139be;
 
   --black: #000000;
-  --gray: #626567;
+  --light-gray: #626567;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -100,10 +100,19 @@ body {
 }
 
 .subtitle-2{
-  font-weight: bold;
+  opacity: .8;
 }
 
 .subtitle-3{
   font-size: 0.85rem;
-  color: var(--gray);
+  color: var(--light-gray);
+}
+
+.chip{
+  padding: 0px 10px;
+  border: 1.5px solid rgba(255 255 255 / 0.4);
+  border-radius: 4px;
+  border-radius: 50px;
+  color: white;
+  opacity: .8;
 }

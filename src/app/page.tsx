@@ -44,11 +44,11 @@ export default function Home() {
               </div>
             </div>
             <div className="profile-card-education">
-              <div className="subtitle-2">Master's Degree in Computer Science</div>
+              <div className="font-bold">Master's Degree in Computer Science</div>
               <div className="subtitle-3 info-text mb-3">University of Laval, Canada</div>
-              <div className="subtitle-2">Bachelor's Degree SIGD-IOTIA</div>
+              <div className="font-bold">Bachelor's Degree SIGD-IOTIA</div>
               <div className="subtitle-3 info-text mb-3">University of Côte-d'Azure, France</div>
-              <div className="subtitle-2">Technology Diploma in Computer Science</div>
+              <div className="font-bold">Technology Diploma in Computer Science</div>
               <div className="subtitle-3 info-text mb-3">University of Strasbourg, France</div>
             </div>
           </div>
@@ -186,23 +186,45 @@ export default function Home() {
           <div className="project">
             <ProjectCardComponent 
               src="/project/airfrance.png"
-              alt="Air France project"
+              title="Airport Flight Consultation"
+              description="Development of a flight, passenger, baggage consultation application for airport agents. Including architecture, development, testing, deployment and production release on the cloud."
+              technologies={["Angular", "Java", "Spring", "SQL", "Azure"]}
+              links={[]}
             />
             <ProjectCardComponent 
               src="/project/moncompteretraite.png"
-              alt="Mon compte retraite project"
+              title="French Retirement Application"
+              description="Development of “Mon Compte Retraite” mobile application for iOS and Android, ensured communication security, production monitoring and designed batch processes."
+              technologies={["Angular", "Ionic", "Java", "Spring", "SQL"]}
+              links={[
+                {href:"https://apps.apple.com/fr/app/mon-compte-retraite/id1176066236", image:"/github.png"},
+                {href:"https://play.google.com/store/apps/details?id=fr.agircarrco.smartretraite", image:"/github.png"},
+              ]}
             />
             <ProjectCardComponent 
               src="/project/cawe.png"
-              alt="Cawe project"
+              title="CAWE Stock Traceability"
+              description="Development of a stock traceability mobile application for Android platforms."
+              technologies={["C#", "Xamarin", "SQL"]}
+              links={[]}
             />
             <ProjectCardComponent 
               src="/project/kanjitest.png"
-              alt="Japanese vocabulary learn project"
+              title="日本語 Vocabulary Test"
+              description="Interactive app designed to help users to learn and memorize Japanese vocabulary."
+              technologies={["Electron", "JavaScript"]}
+              links={[
+                {href:"https://github.com/ian-ledig/kanji-test", image:"/github.png"},
+              ]}
             />
             <ProjectCardComponent 
               src="/project/dynamx.png"
-              alt="Dynamx 3D model converter project"
+              title="3D Model converter"
+              description="Contains two programs that allow converting Toolbox .java models designed for Minecraft Flan's mod to work with the DynamX mod."
+              technologies={["Python", "Java"]}
+              links={[
+                {href:"https://github.com/ian-ledig/FlanToDynamX", image:"/github.png"},
+              ]}
             />
           </div>
         </div>
