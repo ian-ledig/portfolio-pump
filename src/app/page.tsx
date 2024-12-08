@@ -245,6 +245,9 @@ export default function Home() {
                   <div className="mb-0.5">Your message</div>
                   <textarea className="textbox w-11/12 h-40" placeholder=""></textarea>
                 </div>
+                <div>
+                  <a className="button-1 font-heavy" href="">Send</a>
+                </div>
               </div>
             </div>
         </div>
