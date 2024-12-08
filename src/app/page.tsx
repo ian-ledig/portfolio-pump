@@ -4,6 +4,7 @@ import RandomTextComponent from "./components/random-text/random-text.tsx";
 import InkImageComponent from "./components/ink-image/ink-image.tsx";
 import CollaborationComponent from "./components/collaboration/collaboration.tsx";
 import ProjectCardComponent from "./components/project-card/project-card.tsx";
+import ContactComponent from "./components/contact/contact.tsx";
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import "./home.css"
 
@@ -229,27 +230,7 @@ export default function Home() {
           </div>
         </div>
         <div id="contact">
-            <div className="title title-1 font-black justify-center">Contact me_</div>
-            <div className="contact">
-              <div className="contact-card">
-                <div className="subtitle-1 text-white">Get in touch with me</div>
-                <div>
-                  <div className="mb-0.5">Email</div>
-                  <input type="text" className="textbox w-11/12" placeholder=""></input>
-                </div>
-                <div>
-                  <div className="mb-0.5">Subject</div>
-                  <input type="text" className="textbox w-11/12" placeholder=""></input>
-                </div>
-                <div>
-                  <div className="mb-0.5">Your message</div>
-                  <textarea className="textbox w-11/12 h-40" placeholder=""></textarea>
-                </div>
-                <div>
-                  <a className="button-1 font-heavy" href="">Send</a>
-                </div>
-              </div>
-            </div>
+          <ContactComponent />
         </div>
         <div className="footer">
             <div className="footer-detail">
