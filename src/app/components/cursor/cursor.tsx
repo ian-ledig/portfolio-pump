@@ -10,7 +10,7 @@ const CursorComponent = () => {
   useEffect(() => {
     const cursor = cursorRef.current;
 
-    for (let i = 0; i < 200; i++) {
+    for (let i = 0; i < 100; i++) {
       const circle = document.createElement('div');
       circle.classList.add('circle');
       if (cursor) {
