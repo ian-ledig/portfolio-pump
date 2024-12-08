@@ -49,8 +49,6 @@ Make sure you have the following installed:
         EMAIL_USER=your-email@gmail.com
         EMAIL_PASS=your-email-password-or-app-password
     ```
-
-    ```
 4.  **Run the development server:**:
     ```bash
     npm run dev
