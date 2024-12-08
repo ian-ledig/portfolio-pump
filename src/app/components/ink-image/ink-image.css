@@ -11,16 +11,6 @@
   animation: ink-transition 2s steps(39) 0.5s forwards;
 }
 
-.ink-image::before{
-  /* background-image: url('../../../../public/inkframe.png');
-  background-size: 100% 100%;
-  background-position: 50% 50%;
-  content: '';
-  height: 100%;
-  position: absolute;
-  width: 100%; */
-}
-
 .ink-image::after{
   background-image: url('../../../../public/inktransition.png');
   background-size: 100% 100%;

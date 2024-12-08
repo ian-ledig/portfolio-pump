@@ -228,6 +228,26 @@ export default function Home() {
             />
           </div>
         </div>
+        <div id="contact">
+            <div className="title title-1 font-black justify-center">Contact me_</div>
+            <div className="contact">
+              <div className="contact-card">
+                <div className="subtitle-1 text-white">Get in touch with me</div>
+                <div>
+                  <div className="mb-0.5">Email</div>
+                  <input type="text" className="textbox w-11/12" placeholder=""></input>
+                </div>
+                <div>
+                  <div className="mb-0.5">Subject</div>
+                  <input type="text" className="textbox w-11/12" placeholder=""></input>
+                </div>
+                <div>
+                  <div className="mb-0.5">Your message</div>
+                  <textarea className="textbox w-11/12 h-40" placeholder=""></textarea>
+                </div>
+              </div>
+            </div>
+        </div>
         <div className="footer">
             <div className="footer-detail">
               <div className="footer-detail-item">

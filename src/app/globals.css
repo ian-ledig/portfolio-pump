@@ -122,3 +122,15 @@ body {
   opacity: .2;
   border-radius: 50%;
 }
+
+.textbox{
+  border-radius: 20px;
+  padding: 5px 15px;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+  box-shadow: rgb(204, 219, 232) 2px 2px 4px 0px inset, rgba(255, 255, 255, 0.5) -2px -2px 4px 1px inset;
+}
+
+.textbox:focus{
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
