@@ -124,11 +124,11 @@
 
 @media (max-width: 768px) {
     .random-text{
-        padding-top: 120px;
+        padding-top: 80px;
     }
 
     .body {
-        padding-top: 350px;
+        padding-top: 230px;
     }
 
     .home{
