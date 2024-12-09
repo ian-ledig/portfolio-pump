@@ -7,11 +7,13 @@
     background-color: var(--primary);
     padding: 10px 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
 
     .navigation-bar-links{
         display: flex;
-        align-self: center;
+        align-items: center;
         gap: 20px;
+        flex-wrap: wrap;
 
         .navigation-separator{
             font-size: 1.4em;

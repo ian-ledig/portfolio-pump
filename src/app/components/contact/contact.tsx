@@ -39,8 +39,8 @@ const ContactComponent: React.FC = () => {
     };
 
     return (
-        <div>
-            <h2 className="title title-1 font-black justify-center">Contact me_</h2>
+        <>
+            <h2 className="title title-1 font-black text-center">Contact me_</h2>
             <div className="contact">
               <div className="contact-card">
                 <div className="subtitle-1 text-white">Get in touch with me</div>
@@ -83,7 +83,7 @@ const ContactComponent: React.FC = () => {
                 </form>
               </div>
             </div>
-        </div>
+        </>
     );
 };
 

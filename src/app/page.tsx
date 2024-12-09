@@ -15,14 +15,15 @@ export default function Home() {
       <Head>
         <title>Ian LEDIG's Portfolio CV - FullStack Developer</title>
         <meta name="description" content="Showcasing my expertise as a FullStack Developer, including past collaborations, technical skills and completed projects. Available for work — let's bring your ideas to life together!"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <header>
         <NavigationBarComponent />
-      </header>
-      <main className="body" id="home">
-        <div className="title title-1 font-black">
+        <div className="random-text title-1 font-black">
           <RandomTextComponent />
         </div>
+      </header>
+      <main className="body" id="home">
         <section className="home" aria-labelledby="home-title">
           <div className="home-picture">
             <InkImageComponent src="picture0.png" alt="Sakurajima picture"/>
@@ -62,7 +63,7 @@ export default function Home() {
         <section id="collaboration" aria-labelledby="collaboration-title">
           <h2 className="title title-1 font-black">They trusted me_</h2>
           <CollaborationComponent />
-          <div className="title-2 text-center font-thin mt-3">Will you be next?</div>
+          <div className="title-2 text-center font-thin mt-3 mb-20">Will you be next?</div>
         </section>
         <section id="skill" aria-labelledby="skill-title">
           <h2 className="title title-1 font-black">Skills_</h2>

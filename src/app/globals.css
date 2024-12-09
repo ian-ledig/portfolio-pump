@@ -49,6 +49,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
+  background-color: var(--primary);
   font-family: 'San Fransisco Regular', sans-serif;
 }
 
