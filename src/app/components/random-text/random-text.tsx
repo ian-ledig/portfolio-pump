@@ -44,7 +44,7 @@ const RandomTextComponent: React.FC = () => {
     return () => clearInterval(interval);
   }, [offset, forwards, index, skipCount]);
 
-  return <div>{part}</div>;
+  return <div>Need a {part}_</div>;
 };
 
 export default RandomTextComponent;

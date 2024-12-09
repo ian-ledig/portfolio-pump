@@ -14,9 +14,7 @@ export default function Home() {
       <NavigationBarComponent />
       <div className="body" id="home">
         <div className="title title-1 font-black">
-          <div>Need a</div>
           <RandomTextComponent />
-          <div>_</div>
         </div>
         <div className="home">
           <div className="home-picture">
