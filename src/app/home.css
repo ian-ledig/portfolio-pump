@@ -128,13 +128,14 @@
     }
 
     .body {
-        padding-top: 230px;
+        padding-top: 50px;
     }
 
     .home{
         flex-direction: column;
+
         .home-picture {
-            max-width: 90% !important;
+            visibility: hidden;
         }
 
         .profile-card{
