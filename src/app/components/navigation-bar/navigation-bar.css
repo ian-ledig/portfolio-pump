@@ -14,13 +14,13 @@
         align-items: center;
         gap: 20px;
         flex-wrap: wrap;
+    }
 
-        .navigation-item.active {
-            background-color: var(--secondary);
-            padding: 0 8px;
-            border-radius: 12px;
-            color: white;
-        }
+    .navigation-item.active {
+        background-color: var(--secondary);
+        padding: 0 8px;
+        border-radius: 12px;
+        color: white;
     }
 
     .navigation-item{
@@ -46,6 +46,10 @@
     .navigation-bar{
         .navigation-bar-links{
             display: none !important;
+        }
+
+        .navigation-item.active {
+            padding: 2px 7px;
         }
     
         .navigation-bar-small{
