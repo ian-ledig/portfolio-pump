@@ -57,6 +57,20 @@ const CollaborationComponent: React.FC = () => {
                     height={0}
                     priority
                 />
+                <Image
+                    src="/collaboration/gip.png"
+                    alt="Info retraite logo"
+                    width={300}
+                    height={0}
+                    priority
+                />
+                <Image
+                    src="/collaboration/agircarrco.png"
+                    alt="Agirc-arrco logo"
+                    width={300}
+                    height={0}
+                    priority
+                />
                 {/* second */}
                 <Image
                     src="/collaboration/alysiaonline.png"
@@ -103,6 +117,20 @@ const CollaborationComponent: React.FC = () => {
                 <Image
                     src="/collaboration/arte.png"
                     alt="Arte logo"
+                    width={300}
+                    height={0}
+                    priority
+                />
+                <Image
+                    src="/collaboration/gip.png"
+                    alt="Info retraite logo"
+                    width={300}
+                    height={0}
+                    priority
+                />
+                <Image
+                    src="/collaboration/agircarrco.png"
+                    alt="Agirc-arrco logo"
                     width={300}
                     height={0}
                     priority
