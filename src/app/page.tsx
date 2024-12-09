@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Image from "next/image";
 import NavigationBarComponent from "./components/navigation-bar/navigation-bar.tsx";
 import RandomTextComponent from "./components/random-text/random-text.tsx";
@@ -10,17 +11,23 @@ import "./home.css"
 
 export default function Home() {
   return (
-    <div>
-      <NavigationBarComponent />
-      <div className="body" id="home">
+    <>
+      <Head>
+        <title>Ian LEDIG's Portfolio CV - FullStack Developer</title>
+        <meta name="description" content="Showcasing my expertise as a FullStack Developer, including past collaborations, technical skills and completed projects. Available for work — let's bring your ideas to life together!"/>
+      </Head>
+      <header>
+        <NavigationBarComponent />
+      </header>
+      <main className="body" id="home">
         <div className="title title-1 font-black">
           <RandomTextComponent />
         </div>
-        <div className="home">
+        <section className="home" aria-labelledby="home-title">
           <div className="home-picture">
             <InkImageComponent src="picture0.png" alt="Sakurajima picture"/>
           </div>
-          <div className="profile-card">
+          <aside className="profile-card">
             <div className="profile-card-picture">
               <Image
                 src="/profile.png"
@@ -50,19 +57,19 @@ export default function Home() {
               <div className="font-bold">Technology Diploma in Computer Science</div>
               <div className="subtitle-3 info-text mb-3">University of Strasbourg, France</div>
             </div>
-          </div>
-        </div>
-        <div id="collaboration">
-          <div className="title title-1 font-black">They trusted me_</div>
+          </aside>
+        </section>
+        <section id="collaboration" aria-labelledby="collaboration-title">
+          <h2 className="title title-1 font-black">They trusted me_</h2>
           <CollaborationComponent />
           <div className="title-2 text-center font-thin mt-3">Will you be next?</div>
-        </div>
-        <div id="skill">
-          <div className="title title-1 font-black">Skills_</div>
+        </section>
+        <section id="skill" aria-labelledby="skill-title">
+          <h2 className="title title-1 font-black">Skills_</h2>
           <div className="skill">
             <div className="skill-item">
-              <div className="title-2 font-heavy">Web Development</div>
-              <div className="text-lg font-semibold">As a passionate web developer, I master the Angular, React and Electron Frameworks.</div>
+              <h3 className="title-2 font-heavy">Web Development</h3>
+              <h4 className="text-lg font-semibold">As a passionate web developer, I master the Angular, React and Electron Frameworks.</h4>
               <div className="skill-icons">
                 <div className="skill-icon-item">
                   <Image
@@ -72,7 +79,7 @@ export default function Home() {
                     height={50}
                     priority
                   />
-                  <div className="font-heavy">Angular</div>
+                  <h5 className="font-heavy">Angular</h5>
                 </div>
                 <div className="skill-icon-item">
                   <Image
@@ -82,7 +89,7 @@ export default function Home() {
                     height={50}
                     priority
                   />
-                  <div className="font-heavy">React</div>
+                  <h5 className="font-heavy">React</h5>
                 </div>
                 <div className="skill-icon-item">
                   <Image
@@ -92,13 +99,13 @@ export default function Home() {
                     height={50}
                     priority
                   />
-                  <div className="font-heavy">Electron</div>
+                  <h5 className="font-heavy">Electron</h5>
                 </div>
               </div>
             </div>
             <div className="skill-item">
-              <div className="title-2 font-heavy">Mobile Development</div>
-              <div className="text-lg font-semibold">As a mobile development specialist, I combine Ionic with native environments to create tailor-made applications for each users.</div>
+              <h3 className="title-2 font-heavy">Mobile Development</h3>
+              <h4 className="text-lg font-semibold">As a mobile development specialist, I combine Ionic with native environments to create tailor-made applications for each users.</h4>
               <div className="skill-icons">
                 <div className="skill-icon-item">
                   <Image
@@ -108,7 +115,7 @@ export default function Home() {
                     height={50}
                     priority
                   />
-                  <div className="font-heavy">Ionic</div>
+                  <h5 className="font-heavy">Ionic</h5>
                 </div>
                 <div className="skill-icon-item">
                   <Image
@@ -118,7 +125,7 @@ export default function Home() {
                     height={50}
                     priority
                   />
-                  <div className="font-heavy">Android</div>
+                  <h5 className="font-heavy">Android</h5>
                 </div>
                 <div className="skill-icon-item">
                   <Image
@@ -128,13 +135,13 @@ export default function Home() {
                     height={50}
                     priority
                   />
-                  <div className="font-heavy">Apple</div>
+                  <h5 className="font-heavy">Apple</h5>
                 </div>
               </div>
             </div>
             <div className="skill-item">
-              <div className="title-2 font-heavy">Backend Development</div>
-              <div className="text-lg font-semibold">With Java and Spring for APIs, Python for speed and C++/C# for complex systems, I design solid backend architectures.</div>
+              <h3 className="title-2 font-heavy">Backend Development</h3>
+              <h4 className="text-lg font-semibold">With Java and Spring for APIs, Python for speed and C++/C# for complex systems, I design solid backend architectures.</h4>
               <div className="skill-icons">
                 <div className="skill-icon-item">
                   <Image
@@ -144,7 +151,7 @@ export default function Home() {
                     height={50}
                     priority
                   />
-                  <div className="font-heavy">Java</div>
+                  <h5 className="font-heavy">Java</h5>
                 </div>
                 <div className="skill-icon-item">
                   <Image
@@ -154,7 +161,7 @@ export default function Home() {
                     height={50}
                     priority
                   />
-                  <div className="font-heavy">Spring</div>
+                  <h5 className="font-heavy">Spring</h5>
                 </div>
                 <div className="skill-icon-item">
                   <Image
@@ -164,7 +171,7 @@ export default function Home() {
                     height={50}
                     priority
                   />
-                  <div className="font-heavy">C++</div>
+                  <h5 className="font-heavy">C++</h5>
                 </div>
                 <div className="skill-icon-item">
                   <Image
@@ -174,14 +181,14 @@ export default function Home() {
                     height={50}
                     priority
                   />
-                  <div className="font-heavy">C#</div>
+                  <h5 className="font-heavy">C#</h5>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div id="project">
-          <div className="title title-1 font-black">Projects_</div>
+        </section>
+        <section id="project" aria-labelledby="project-title">
+          <h2 className="title title-1 font-black">Projects_</h2>
           <div className="project">
             <ProjectCardComponent 
               src="/project/airfrance.png"
@@ -267,11 +274,11 @@ export default function Home() {
               links={[]}
             />
           </div>
-        </div>
-        <div id="contact">
+        </section>
+        <section id="contact" aria-labelledby="contact-title">
           <ContactComponent />
-        </div>
-        <div className="footer">
+        </section>
+        <footer className="footer">
             <div className="footer-detail">
               <div className="footer-detail-item">
                 <Image
@@ -312,8 +319,8 @@ export default function Home() {
               <div className="separator mb-3"></div>
               <div className="text-end opacity-50">Copyright © 2024 Ian LEDIG</div>
             </div>
-        </div>
-      </div>
-    </div>
+        </footer>
+      </main>
+    </>
   );
 }

@@ -4,12 +4,12 @@ import "./project-card.css";
 
 const ProjectCardComponent: React.FC = ({ src, title, description, technologies, links }) => {
     return (
-        <div className="project-card">
+        <article className="project-card">
             <div className="project-card-background">
                 <img src={src} alt={title} />
             </div>
             <div className="project-card-detail">
-                <div className="subtitle-1">{title}</div>
+                <h3 className="subtitle-1">{title}</h3>
                 <div className="project-card-detail-container">
                     {technologies.map((technology) => (
                         <div className="chip">{technology}</div>
@@ -35,7 +35,7 @@ const ProjectCardComponent: React.FC = ({ src, title, description, technologies,
                     </>
                 )}
             </div>
-        </div>
+        </article>
     );
 };
 

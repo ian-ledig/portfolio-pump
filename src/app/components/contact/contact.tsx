@@ -40,7 +40,7 @@ const ContactComponent: React.FC = () => {
 
     return (
         <div>
-            <div className="title title-1 font-black justify-center">Contact me_</div>
+            <h2 className="title title-1 font-black justify-center">Contact me_</h2>
             <div className="contact">
               <div className="contact-card">
                 <div className="subtitle-1 text-white">Get in touch with me</div>

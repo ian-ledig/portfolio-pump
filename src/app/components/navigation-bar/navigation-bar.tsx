@@ -47,7 +47,7 @@ const NavigationBarComponent: React.FC = () => {
     }, []);
 
     return (
-        <div className="navigation-bar">
+        <nav className="navigation-bar">
             <div className="navigation-bar-links">
                 <Image
                     src="/logofull.png"
@@ -87,7 +87,7 @@ const NavigationBarComponent: React.FC = () => {
                 </a>
                 <a onClick={(e) => handleLinkClick(e, 'contact')} className="navigation-item button-1 font-heavy" href="">Contact</a>
             </div>
-        </div>
+        </nav>
     );
 };
 
