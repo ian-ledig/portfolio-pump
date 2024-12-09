@@ -39,3 +39,9 @@
         transform: translateX(-100%);
     }
 }
+
+@media (max-width: 768px) {
+    .collaboration-items {
+        animation: 10s slideEffect infinite linear;
+    }
+}
