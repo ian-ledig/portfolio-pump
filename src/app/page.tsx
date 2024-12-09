@@ -259,6 +259,13 @@ export default function Home() {
                 {href:"https://info-retraite.fr/", image:"/project/icon/link.png"},
               ]}
             />
+            <ProjectCardComponent 
+              src="/project/grooveai.png"
+              title="Groove AI Music recognizer"
+              description="Development of a music theme recognition application using AI and machine learning."
+              technologies={["Python"]}
+              links={[]}
+            />
           </div>
         </div>
         <div id="contact">
