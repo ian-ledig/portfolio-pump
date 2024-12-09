@@ -11,8 +11,8 @@ const ProjectCardComponent: React.FC = ({ src, title, description, technologies,
             <div className="project-card-detail">
                 <h3 className="subtitle-1">{title}</h3>
                 <div className="project-card-detail-container">
-                    {technologies.map((technology) => (
-                        <div className="chip">{technology}</div>
+                    {technologies.map((technology, index) => (
+                        <div key={`tech-${index}`} className="chip">{technology}</div>
                     ))}
                 </div>
                 <div className="subtitle-2 text-justify">{description}</div>
@@ -20,8 +20,8 @@ const ProjectCardComponent: React.FC = ({ src, title, description, technologies,
                     <>
                         <div>Links</div>
                         <div className="project-card-detail-container">
-                            {links.map((link) => (
-                                <a href={link.href} target="_blank">
+                            {links.map((link, index) => (
+                                <a key={`link-${index}`} href={link.href} target="_blank">
                                     <Image 
                                         src={link.image}
                                         alt={`${title} icon`}
