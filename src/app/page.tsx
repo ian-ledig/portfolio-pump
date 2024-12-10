@@ -156,7 +156,7 @@ export default function Home() {
                 </div>
                 <div className="skill-icon-item">
                   <Image
-                    src="/skill/Spring.png"
+                    src="/skill/spring.png"
                     alt="Spring logo"
                     width={50}
                     height={50}
