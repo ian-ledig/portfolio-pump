@@ -16,7 +16,7 @@ jobs:
         key: ${{ secrets.PRIVATE_KEY }}
         port: 22
         script: |
-          cd ~/home/ian/portfolio
+          cd ~/home/ian/portfolio-pump
           git pull origin master
           git status
           npm install --only=prod
