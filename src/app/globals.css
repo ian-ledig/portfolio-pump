@@ -3,22 +3,12 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-
   --primary: #FDF9E0;
   --secondary: #253FD7;
   --tertiary: #2139be;
 
   --black: #000000;
   --light-gray: #626567;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 @font-face {
@@ -47,8 +37,6 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
   background-color: var(--primary);
   font-family: 'San Fransisco Regular', sans-serif;
 }
