@@ -1,7 +1,6 @@
 "use client";
 
-import React, { useEffect, useRef } from "react";
-import { GSAPPlugin } from "scrollmagic-plugin-gsap";
+import React, { useEffect } from "react";
 import "./ink-image.css";
 
 interface InkImageComponentProps {
@@ -10,7 +9,6 @@ interface InkImageComponentProps {
 }
 
 const InkImageComponent: React.FC<InkImageComponentProps> = ({ src, alt }) => {
-  const liquifyTriggerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -18,7 +16,6 @@ const InkImageComponent: React.FC<InkImageComponentProps> = ({ src, alt }) => {
         const ScrollMagic = ScrollMagicModule.default;
 
         if (ScrollMagic) {
-          ScrollMagic.Scene.addTween = GSAPPlugin;
 
           const controller = new ScrollMagic.Controller();
 

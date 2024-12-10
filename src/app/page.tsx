@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import Image from "next/image";
-import NavigationBarComponent from "./components/navigation-bar/navigation-bar.tsx";
-import RandomTextComponent from "./components/random-text/random-text.tsx";
-import InkImageComponent from "./components/ink-image/ink-image.tsx";
-import CollaborationComponent from "./components/collaboration/collaboration.tsx";
-import ProjectCardComponent from "./components/project-card/project-card.tsx";
-import ContactComponent from "./components/contact/contact.tsx";
+import NavigationBarComponent from "./components/navigation-bar/navigation-bar";
+import RandomTextComponent from "./components/random-text/random-text";
+import InkImageComponent from "./components/ink-image/ink-image";
+import CollaborationComponent from "./components/collaboration/collaboration";
+import ProjectCardComponent from "./components/project-card/project-card";
+import ContactComponent from "./components/contact/contact";
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import "./home.css"
 
@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ian LEDIG's Portfolio CV - FullStack Developer</title>
+        <title>Ian LEDIG&apos;s Portfolio CV - FullStack Developer</title>
         <meta name="description" content="Showcasing my expertise as a FullStack Developer, including past collaborations, technical skills and completed projects. Available for work — let's bring your ideas to life together!"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
@@ -51,10 +51,10 @@ export default function Home() {
               </div>
             </div>
             <div className="profile-card-education">
-              <div className="font-bold">Master's Degree in Computer Science</div>
+              <div className="font-bold">Master&apos;s Degree in Computer Science</div>
               <div className="subtitle-3 info-text mb-3">University of Laval, Canada</div>
-              <div className="font-bold">Bachelor's Degree SIGD-IOTIA</div>
-              <div className="subtitle-3 info-text mb-3">University of Côte-d'Azure, France</div>
+              <div className="font-bold">Bachelor&apos;s Degree SIGD-IOTIA</div>
+              <div className="subtitle-3 info-text mb-3">University of Côte-d&apos;Azure, France</div>
               <div className="font-bold">Technology Diploma in Computer Science</div>
               <div className="subtitle-3 info-text mb-3">University of Strasbourg, France</div>
             </div>

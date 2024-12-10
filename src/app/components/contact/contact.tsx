@@ -1,7 +1,6 @@
 "use client"
 
 import React, { useState } from 'react'
-import Image from "next/image";
 import "./contact.css";
 
 const ContactComponent: React.FC = () => {
@@ -9,7 +8,7 @@ const ContactComponent: React.FC = () => {
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = async (e: { preventDefault: () => void; }) => {
         e.preventDefault();
     
         if (!email || !subject || !message) {

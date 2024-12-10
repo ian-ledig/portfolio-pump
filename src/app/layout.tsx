@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import CursorComponent from "./components/cursor/cursor.tsx";
+import CursorComponent from "./components/cursor/cursor";
 import "./globals.css";
 
 export const metadata: Metadata = {
