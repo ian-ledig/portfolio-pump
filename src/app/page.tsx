@@ -274,6 +274,15 @@ export default function Home() {
               technologies={["Python"]}
               links={[]}
             />
+            <ProjectCardComponent 
+              src="/project/connect4.png"
+              title="Connect 4 Game"
+              description="Development of a Connect 4 game."
+              technologies={["Java"]}
+              links={[
+                {href:"https://github.com/ian-ledig/Connect4", image:"/project/icon/github.png"},
+              ]}
+            />
           </div>
         </section>
         <section id="contact" aria-labelledby="contact-title">
