@@ -8,27 +8,22 @@
 
 .collaboration-items {
     display: flex;
+    gap: 5vw;
     animation: 100s slideEffect infinite linear;
+
+    a{
+        align-self: center;
+    }
+
+    img {
+        max-width: 200px;
+        max-height: 100px;
+        object-fit: cover;
+    }
 }
 
 .collaboration:hover .collaboration-items {
     animation-play-state: paused;
-}
-
-.collaboration-items img {
-    max-height: 50px;
-    margin: 0 40px;
-    object-fit: contain;
-}
-
-.collaboration:before,
-.collaboration:after {
-    position: absolute;
-    top: 0;
-    width: 250px;
-    height: 100%;
-    content: '';
-    z-index: 2;
 }
 
 @keyframes slideEffect {
