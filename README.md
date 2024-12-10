@@ -2,7 +2,7 @@
 
 Welcome to my open-source portfolio! This repository showcases my journey as a developer, featuring projects that highlight my skills in frontend and backend.
 
-You can check the result in [my website](https://ian-ledig.com/).
+You can check the result on [my website](https://ian-ledig.com/).
 
 ---
 
