@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import "./random-text.css";
 
 const words = [
   "website for your business?",
@@ -12,39 +13,48 @@ const RandomTextComponent: React.FC = () => {
   const [part, setPart] = useState<string>("");
   const [index, setIndex] = useState<number>(0);
   const [offset, setOffset] = useState<number>(0);
-  const [forwards, setForwards] = useState<boolean>(true);
-  const [skipCount, setSkipCount] = useState<number>(0);
+  const [isFadingOut, setIsFadingOut] = useState<boolean>(false);
 
   useEffect(() => {
-    const speed = 70;
-    const skipDelay = 15;
+    const speed = 80;
+    const displayTime = 3000;
 
-    const interval = setInterval(() => {
-      if (forwards) {
-        if (offset >= words[index].length) {
-          setSkipCount((prev) => prev + 1);
-          if (skipCount === skipDelay) {
-            setForwards(false);
-            setSkipCount(0);
-          }
-        } else {
-          setOffset((prev) => prev + 1);
-        }
-      } else {
-        if (offset === 0) {
-          setForwards(true);
-          setIndex((prev) => (prev + 1) % words.length);
-        } else {
-          setOffset((prev) => prev - 1);
-        }
-      }
-      setPart(words[index].substring(0, offset));
-    }, speed);
+    if (!isFadingOut && offset < words[index].length) {
+      const interval = setInterval(() => {
+        setOffset((prevOffset) => prevOffset + 1);
+      }, speed);
+      return () => clearInterval(interval);
+    } else if (offset >= words[index].length) {
+      const displayTimeout = setTimeout(() => {
+        setIsFadingOut(true);
+      }, displayTime);
+      return () => clearTimeout(displayTimeout);
+    }
+  }, [offset, isFadingOut, index]);
 
-    return () => clearInterval(interval);
-  }, [offset, forwards, index, skipCount]);
+  useEffect(() => {
+    if (isFadingOut) {
+      const fadeTimeout = setTimeout(() => {
+        setIsFadingOut(false);
+        setIndex((prevIndex) => (prevIndex + 1) % words.length);
+        setOffset(0);
+      }, 1500);
+      return () => clearTimeout(fadeTimeout);
+    }
+  }, [isFadingOut]);
 
-  return <div>Need a {part}_</div>;
+  useEffect(() => {
+    setPart(words[index].substring(0, offset));
+  }, [offset, index]);
+
+  return (
+    <>
+      Need a{" "}
+      <span className={`fade-text ${isFadingOut ? "fade-out" : ""}`}>
+        {part}_
+      </span>
+    </>
+  );
 };
 
 export default RandomTextComponent;
