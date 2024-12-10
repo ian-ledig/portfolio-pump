@@ -12,7 +12,7 @@ const NavigationBarComponent: React.FC = () => {
     const handleLinkClick = (event: React.MouseEvent<HTMLAnchorElement>, sectionId: string) => {
         event.preventDefault();
         const targetSection = document.getElementById(sectionId);
-        
+
         if (targetSection) {
             const offset = 80;
             const sectionPosition = targetSection.offsetTop - offset;
@@ -56,13 +56,15 @@ const NavigationBarComponent: React.FC = () => {
         <>
             <nav className="navigation-bar">
                 <div className="navigation-bar-links">
-                    <Image
-                        src="/logofull.png"
-                        alt="Ian LEDIG logo"
-                        width={100}
-                        height={0}
-                        priority
-                    />
+                    <a href="">
+                        <Image
+                            src="/logofull.png"
+                            alt="Ian LEDIG logo"
+                            width={100}
+                            height={0}
+                            priority
+                        />
+                    </a>
                     <div className="navigation-separator">|</div>
                     <a onClick={(e) => handleLinkClick(e, 'home')} className={`navigation-item font-heavy ${activeSection === 'home' ? 'active' : ''}`} href="">Home</a>
                     <div className="navigation-separator">|</div>
@@ -76,28 +78,28 @@ const NavigationBarComponent: React.FC = () => {
                 <div className="navigation-bar-links">
                     <a href="https://github.com/ian-ledig" target="_blank" className="self-center">
                         <Image
-                        src="/github.png"
-                        alt="Github logo"
-                        width={25}
-                        height={0}
-                        priority
+                            src="/github.png"
+                            alt="Github logo"
+                            width={25}
+                            height={0}
+                            priority
                         />
                     </a>
                     <a href="https://www.linkedin.com/in/ian-ledig/" target="_blank" className="self-center mr-3">
                         <Image
-                        src="/linkedin.png"
-                        alt="Linkedin logo"
-                        width={25}
-                        height={0}
-                        priority
+                            src="/linkedin.png"
+                            alt="Linkedin logo"
+                            width={25}
+                            height={0}
+                            priority
                         />
                     </a>
                     <a onClick={(e) => handleLinkClick(e, 'contact')} className="navigation-item button-1 font-heavy" href="">Contact</a>
                 </div>
                 <div className="navigation-bar-small">
                     <a onClick={(e) => handleLinkClick(e, 'home')} className={`navigation-item font-heavy ${activeSection === 'home' ? 'active' : ''}`} href="">
-                        <IoHome 
-                            size={20} 
+                        <IoHome
+                            size={20}
                             className="mt-2"
                         />
                         <div className="text-xs">
@@ -105,8 +107,8 @@ const NavigationBarComponent: React.FC = () => {
                         </div>
                     </a>
                     <a onClick={(e) => handleLinkClick(e, 'collaboration')} className={`navigation-item font-heavy ${activeSection === 'collaboration' ? 'active' : ''}`} href="">
-                        <IoInformationCircle 
-                            size={20} 
+                        <IoInformationCircle
+                            size={20}
                             className="mt-2"
                         />
                         <div className="text-xs">
@@ -114,8 +116,8 @@ const NavigationBarComponent: React.FC = () => {
                         </div>
                     </a>
                     <a onClick={(e) => handleLinkClick(e, 'skill')} className={`navigation-item font-heavy ${activeSection === 'skill' ? 'active' : ''}`} href="">
-                        <IoBookmark 
-                            size={20} 
+                        <IoBookmark
+                            size={20}
                             className="mt-2"
                         />
                         <div className="text-xs">
@@ -123,8 +125,8 @@ const NavigationBarComponent: React.FC = () => {
                         </div>
                     </a>
                     <a onClick={(e) => handleLinkClick(e, 'project')} className={`navigation-item font-heavy ${activeSection === 'project' ? 'active' : ''}`} href="">
-                        <IoCodeSlash 
-                            size={20} 
+                        <IoCodeSlash
+                            size={20}
                             className="mt-2"
                         />
                         <div className="text-xs">
@@ -132,8 +134,8 @@ const NavigationBarComponent: React.FC = () => {
                         </div>
                     </a>
                     <a onClick={(e) => handleLinkClick(e, 'contact')} className={`navigation-item font-heavy ${activeSection === 'contact' ? 'active' : ''}`} href="">
-                        <IoMailOpen 
-                            size={20} 
+                        <IoMailOpen
+                            size={20}
                             className="mt-2"
                         />
                         <div className="text-xs">
@@ -142,20 +144,20 @@ const NavigationBarComponent: React.FC = () => {
                     </a>
                     <a href="https://github.com/ian-ledig" target="_blank" className="self-center">
                         <Image
-                        src="/github.png"
-                        alt="Github logo"
-                        width={25}
-                        height={0}
-                        priority
+                            src="/github.png"
+                            alt="Github logo"
+                            width={25}
+                            height={0}
+                            priority
                         />
                     </a>
                     <a href="https://www.linkedin.com/in/ian-ledig/" target="_blank" className="self-center mr-3">
                         <Image
-                        src="/linkedin.png"
-                        alt="Linkedin logo"
-                        width={25}
-                        height={0}
-                        priority
+                            src="/linkedin.png"
+                            alt="Linkedin logo"
+                            width={25}
+                            height={0}
+                            priority
                         />
                     </a>
                 </div>
