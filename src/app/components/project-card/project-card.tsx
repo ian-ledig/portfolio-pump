@@ -2,7 +2,20 @@ import React from "react";
 import Image from "next/image";
 import "./project-card.css";
 
-const ProjectCardComponent: React.FC = ({ src, title, description, technologies, links }) => {
+type LinkProject = {
+    image: string,
+    href: string,
+}
+
+type ProtectCardComponentProps = {
+    src: string,
+    title: string,
+    description: string,
+    technologies: string[],
+    links: LinkProject[]
+}
+
+const ProjectCardComponent = ({ src, title, description, technologies, links }: ProtectCardComponentProps) => {
     return (
         <article className="project-card">
             <div className="project-card-background">

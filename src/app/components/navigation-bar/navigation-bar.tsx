@@ -2,7 +2,6 @@
 
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import { FaMapMarkerAlt } from 'react-icons/fa';
 import { IoHome, IoInformationCircle, IoBookmark, IoCodeSlash, IoMailOpen } from "react-icons/io5";
 import "./navigation-bar.css";
 
