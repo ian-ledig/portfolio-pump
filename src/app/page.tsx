@@ -47,14 +47,14 @@ export default function Home() {
                   className="mb-3.5 mr-1"
                   style={{ color: "var(--secondary)" }}
                 />
-                <div className="subtitle-3 mb-3 font-thin">Yokohama, Japan</div>
+                <div className="subtitle-3 mb-3 font-thin">Marseille, France</div>
               </div>
             </div>
             <div className="profile-card-education">
               <div className="font-bold">Master's Degree in Computer Science</div>
               <div className="subtitle-3 info-text mb-3">University of Laval, Canada</div>
               <div className="font-bold">Bachelor's Degree SIGD-IOTIA</div>
-              <div className="subtitle-3 info-text mb-3">University of Côte-d'Azure, France</div>
+              <div className="subtitle-3 info-text mb-3">University of Côte-d'Azur, France</div>
               <div className="font-bold">Technology Diploma in Computer Science</div>
               <div className="subtitle-3 info-text mb-3">University of Strasbourg, France</div>
             </div>
