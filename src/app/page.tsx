@@ -26,7 +26,7 @@ export default function Home() {
       <main className="body" id="home">
         <section className="home" aria-labelledby="home-title">
           <div className="home-picture">
-            <InkImageComponent src="picture0.webp" alt="Sakurajima picture"/>
+            <InkImageComponent src="/picture0.webp" alt="Sakurajima picture"/>
           </div>
           <aside className="profile-card">
             <div className="profile-card-picture">
