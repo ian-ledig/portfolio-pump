@@ -47,7 +47,7 @@ export default function Home() {
                   className="mb-3.5 mr-1"
                   style={{ color: "var(--secondary)" }}
                 />
-                <div className="subtitle-3 mb-3 font-thin">Marseille, France</div>
+                <div className="subtitle-3 mb-3 font-regular">Marseille, France</div>
               </div>
             </div>
             <div className="profile-card-education">
