@@ -45,36 +45,42 @@ const ContactComponent: React.FC = () => {
                 <div className="subtitle-1 text-white">Get in touch with me</div>
                 <form onSubmit={handleSubmit}>
                     <div>
-                    <div className="mb-0.5">Email</div>
-                    <input 
-                        type="text" 
-                        className="textbox w-11/12" 
-                        placeholder="" 
-                        value={email} 
-                        onChange={(e) => setEmail(e.target.value)} 
-                        required
-                    />
+                      <label className="mb-0.5" htmlFor="email">Email</label>
+                      <input 
+                          id="email"
+                          name="email"
+                          type="text" 
+                          className="textbox w-11/12" 
+                          placeholder="" 
+                          value={email} 
+                          onChange={(e) => setEmail(e.target.value)} 
+                          required
+                      />
                     </div>
                     <div>
-                    <div className="mb-0.5">Subject</div>
-                    <input 
-                        type="text" 
-                        className="textbox w-11/12" 
-                        placeholder=""
-                        value={subject} 
-                        onChange={(e) => setSubject(e.target.value)} 
-                        required
-                    />
+                      <label className="mb-0.5" htmlFor="subject">Subject</label>
+                      <input 
+                          id="subject"
+                          name="subject"
+                          type="text" 
+                          className="textbox w-11/12" 
+                          placeholder=""
+                          value={subject} 
+                          onChange={(e) => setSubject(e.target.value)} 
+                          required
+                      />
                     </div>
                     <div>
-                    <div className="mb-0.5">Your message</div>
-                    <textarea 
-                        className="textbox w-11/12 h-40" 
-                        placeholder=""
-                        value={message} 
-                        onChange={(e) => setMessage(e.target.value)} 
-                        required
-                    />
+                      <label className="mb-0.5" htmlFor="message">Your message</label>
+                      <textarea 
+                          id="message"
+                          name="message"
+                          className="textbox w-11/12 h-40" 
+                          placeholder=""
+                          value={message} 
+                          onChange={(e) => setMessage(e.target.value)} 
+                          required
+                      />
                     </div>
                     <div>
                         <button type="submit" className="button-1 font-heavy">Send</button>

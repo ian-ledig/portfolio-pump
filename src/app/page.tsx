@@ -318,7 +318,7 @@ export default function Home() {
             </div>
             <div>
               <div className="separator mb-3"></div>
-              <div className="text-end opacity-50">Copyright © 2024 Ian LEDIG</div>
+              <div className="text-end opacity-80">Copyright © 2024 Ian LEDIG</div>
             </div>
         </footer>
       </main>
