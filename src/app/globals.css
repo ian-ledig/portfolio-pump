@@ -13,27 +13,32 @@
 
 @font-face {
   font-family: 'San Fransisco Black';
-  src: url('fonts/SFUIDisplay-Black.woff');
+  src: url('fonts/SFUIDisplay-Black.woff2') format('woff2');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'San Fransisco Heavy';
-  src: url('fonts/SFUIDisplay-Heavy.woff');
+  src: url('fonts/SFUIDisplay-Heavy.woff2') format('woff2');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'San Fransisco Regular';
-  src: url('fonts/SFUIDisplay-Regular.woff');
+  src: url('fonts/SFUIDisplay-Regular.woff2') format('woff2');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'San Fransisco Thin';
-  src: url('fonts/SFUIDisplay-Thin.woff');
+  src: url('fonts/SFUIDisplay-Thin.woff2') format('woff2');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'San Fransisco Semibold';
-  src: url('fonts/SFUIDisplay-Semibold.woff');
+  src: url('fonts/SFUIDisplay-Semibold.woff2') format('woff2');
+  font-display: swap;
 }
 
 body {

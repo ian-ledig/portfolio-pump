@@ -58,7 +58,7 @@ const NavigationBarComponent: React.FC = () => {
                 <div className="navigation-bar-links">
                     <a href="">
                         <Image
-                            src="/logofull.png"
+                            src="/logofull.webp"
                             alt="Ian LEDIG logo"
                             width={100}
                             height={0}
@@ -78,7 +78,7 @@ const NavigationBarComponent: React.FC = () => {
                 <div className="navigation-bar-links">
                     <a href="https://github.com/ian-ledig" target="_blank" className="self-center">
                         <Image
-                            src="/github.png"
+                            src="/github.webp"
                             alt="Github logo"
                             width={25}
                             height={0}
@@ -87,7 +87,7 @@ const NavigationBarComponent: React.FC = () => {
                     </a>
                     <a href="https://www.linkedin.com/in/ian-ledig/" target="_blank" className="self-center mr-3">
                         <Image
-                            src="/linkedin.png"
+                            src="/linkedin.webp"
                             alt="Linkedin logo"
                             width={25}
                             height={0}
@@ -144,7 +144,7 @@ const NavigationBarComponent: React.FC = () => {
                     </a>
                     <a href="https://github.com/ian-ledig" target="_blank" className="self-center">
                         <Image
-                            src="/github.png"
+                            src="/github.webp"
                             alt="Github logo"
                             width={25}
                             height={0}
@@ -153,7 +153,7 @@ const NavigationBarComponent: React.FC = () => {
                     </a>
                     <a href="https://www.linkedin.com/in/ian-ledig/" target="_blank" className="self-center mr-3">
                         <Image
-                            src="/linkedin.png"
+                            src="/linkedin.webp"
                             alt="Linkedin logo"
                             width={25}
                             height={0}

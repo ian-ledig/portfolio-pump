@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect } from "react";
+import Image from "next/image";
 import "./ink-image.css";
 
 interface InkImageComponentProps {
@@ -40,10 +41,13 @@ const InkImageComponent: React.FC<InkImageComponentProps> = ({ src, alt }) => {
 
   return (
     <div className="ink-image js-ink-trigger">
-      <img
+      <Image
         className="ink-image-img"
         src={src}
         alt={alt}
+        width={900}
+        height={0}
+        priority
       />
     </div>
   );

@@ -8,167 +8,167 @@ const CollaborationComponent: React.FC = () => {
     return (
         <div className="collaboration">
             <div className="collaboration-items">
-                <a>
+                <div>
                     <Image
-                        src="/collaboration/alysiaonline.png"
+                        src="/collaboration/alysiaonline.webp"
                         alt="Alysia Online logo"
-                        width={300}
+                        loading="lazy"
+                        width={200}
                         height={0}
-                        priority
                     />
-                </a>
-                <a>
+                </div>
+                <div>
                     <Image
-                        src="/collaboration/forsakenflyff.png"
+                        src="/collaboration/forsakenflyff.webp"
                         alt="Forsaken Kindgdom logo"
-                        width={500}
+                        loading="lazy"
+                        width={200}
                         height={0}
-                        priority
                     />
-                </a>
+                </div>
                 <a href="https://moonflyff.fr/" target="_blank">
                     <Image
-                        src="/collaboration/moonflyff.png"
+                        src="/collaboration/moonflyff.webp"
                         alt="Moon Flyff logo"
+                        loading="lazy"
                         width={300}
                         height={0}
-                        priority
                     />
                 </a>
                 <a href="https://airfrance.fr/" target="_blank">
                     <Image
-                        src="/collaboration/airfrance.png"
+                        src="/collaboration/airfrance.webp"
                         alt="Air France logo"
+                        loading="lazy"
                         width={300}
                         height={0}
-                        priority
                     />
                 </a>
                 <a href="https://probtp.com/" target="_blank">
                     <Image
-                        src="/collaboration/probtp.png"
+                        src="/collaboration/probtp.webp"
                         alt="Pro BTP logo"
+                        loading="lazy"
                         width={300}
                         height={0}
-                        priority
                     />
                 </a>
                 <a href="https://cawe.com/" target="_blank">
                     <Image
-                        src="/collaboration/cawe.png"
+                        src="/collaboration/cawe.webp"
                         alt="Cawe logo"
+                        loading="lazy"
                         width={300}
                         height={0}
-                        priority
                     />
                 </a>
                 <a href="https://arte.tv/" target="_blank">
                     <Image
-                        src="/collaboration/arte.png"
+                        src="/collaboration/arte.webp"
                         alt="Arte logo"
+                        loading="lazy"
                         width={300}
                         height={0}
-                        priority
                     />
                 </a>
                 <a href="https://info-retraite.fr/" target="_blank">
                     <Image
-                        src="/collaboration/gip.png"
+                        src="/collaboration/gip.webp"
                         alt="Info retraite logo"
+                        loading="lazy"
                         width={300}
                         height={0}
-                        priority
                     />
                 </a>
                 <a href="https://agirc-arrco.fr/" target="_blank">
                     <Image
-                        src="/collaboration/agircarrco.png"
+                        src="/collaboration/agircarrco.webp"
                         alt="Agirc-arrco logo"
+                        loading="lazy"
                         width={300}
                         height={0}
-                        priority
                     />
                 </a>
                 {/* second */}
-                <a>
+                <div>
                     <Image
-                        src="/collaboration/alysiaonline.png"
+                        src="/collaboration/alysiaonline.webp"
                         alt="Alysia Online logo"
-                        width={300}
+                        loading="lazy"
+                        width={200}
                         height={0}
-                        priority
                     />
-                </a>
-                <a>
+                </div>
+                <div>
                     <Image
-                        src="/collaboration/forsakenflyff.png"
+                        src="/collaboration/forsakenflyff.webp"
                         alt="Forsaken Kindgdom logo"
-                        width={500}
+                        loading="lazy"
+                        width={200}
                         height={0}
-                        priority
                     />
-                </a>
+                </div>
                 <a href="https://moonflyff.fr/" target="_blank">
                     <Image
-                        src="/collaboration/moonflyff.png"
+                        src="/collaboration/moonflyff.webp"
                         alt="Moon Flyff logo"
+                        loading="lazy"
                         width={300}
                         height={0}
-                        priority
                     />
                 </a>
                 <a href="https://airfrance.fr/" target="_blank">
                     <Image
-                        src="/collaboration/airfrance.png"
+                        src="/collaboration/airfrance.webp"
                         alt="Air France logo"
+                        loading="lazy"
                         width={300}
                         height={0}
-                        priority
                     />
                 </a>
                 <a href="https://probtp.com/" target="_blank">
                     <Image
-                        src="/collaboration/probtp.png"
+                        src="/collaboration/probtp.webp"
                         alt="Pro BTP logo"
+                        loading="lazy"
                         width={300}
                         height={0}
-                        priority
                     />
                 </a>
                 <a href="https://cawe.com/" target="_blank">
                     <Image
-                        src="/collaboration/cawe.png"
+                        src="/collaboration/cawe.webp"
                         alt="Cawe logo"
+                        loading="lazy"
                         width={300}
                         height={0}
-                        priority
                     />
                 </a>
                 <a href="https://arte.tv/" target="_blank">
                     <Image
-                        src="/collaboration/arte.png"
+                        src="/collaboration/arte.webp"
                         alt="Arte logo"
+                        loading="lazy"
                         width={300}
                         height={0}
-                        priority
                     />
                 </a>
                 <a href="https://info-retraite.fr/" target="_blank">
                     <Image
-                        src="/collaboration/gip.png"
+                        src="/collaboration/gip.webp"
                         alt="Info retraite logo"
+                        loading="lazy"
                         width={300}
                         height={0}
-                        priority
                     />
                 </a>
                 <a href="https://agirc-arrco.fr/" target="_blank">
                     <Image
-                        src="/collaboration/agircarrco.png"
+                        src="/collaboration/agircarrco.webp"
                         alt="Agirc-arrco logo"
+                        loading="lazy"
                         width={300}
                         height={0}
-                        priority
                     />
                 </a>
             </div>

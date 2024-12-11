@@ -5,8 +5,8 @@
 
 .body {
     padding-top: 210px;
-    background-image: url('/background.png');
-    background-size: 100% auto;
+    background-image: url('/background.webp');
+    background-size: 12%;
     display: flex;
     flex-direction: column;
 
