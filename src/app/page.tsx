@@ -76,9 +76,9 @@ export default function Home() {
                   <Image
                     src="/skill/angular.webp"
                     alt="Angular logo"
+                    loading="lazy"
                     width={50}
                     height={50}
-                    priority
                   />
                   <h5 className="font-heavy">Angular</h5>
                 </div>
@@ -86,9 +86,9 @@ export default function Home() {
                   <Image
                     src="/skill/react.webp"
                     alt="React logo"
+                    loading="lazy"
                     width={50}
                     height={50}
-                    priority
                   />
                   <h5 className="font-heavy">React</h5>
                 </div>
@@ -96,9 +96,9 @@ export default function Home() {
                   <Image
                     src="/skill/electron.webp"
                     alt="Electron logo"
+                    loading="lazy"
                     width={50}
                     height={50}
-                    priority
                   />
                   <h5 className="font-heavy">Electron</h5>
                 </div>
@@ -112,9 +112,9 @@ export default function Home() {
                   <Image
                     src="/skill/ionic.webp"
                     alt="Ionic logo"
+                    loading="lazy"
                     width={50}
                     height={50}
-                    priority
                   />
                   <h5 className="font-heavy">Ionic</h5>
                 </div>
@@ -122,9 +122,9 @@ export default function Home() {
                   <Image
                     src="/skill/android.webp"
                     alt="Android logo"
+                    loading="lazy"
                     width={50}
                     height={50}
-                    priority
                   />
                   <h5 className="font-heavy">Android</h5>
                 </div>
@@ -132,9 +132,9 @@ export default function Home() {
                   <Image
                     src="/skill/apple.webp"
                     alt="Apple logo"
+                    loading="lazy"
                     width={50}
                     height={50}
-                    priority
                   />
                   <h5 className="font-heavy">Apple</h5>
                 </div>
@@ -148,9 +148,9 @@ export default function Home() {
                   <Image
                     src="/skill/java.webp"
                     alt="Java logo"
+                    loading="lazy"
                     width={50}
                     height={50}
-                    priority
                   />
                   <h5 className="font-heavy">Java</h5>
                 </div>
@@ -158,9 +158,9 @@ export default function Home() {
                   <Image
                     src="/skill/spring.webp"
                     alt="Spring logo"
+                    loading="lazy"
                     width={50}
                     height={50}
-                    priority
                   />
                   <h5 className="font-heavy">Spring</h5>
                 </div>
@@ -168,9 +168,9 @@ export default function Home() {
                   <Image
                     src="/skill/cpp.webp"
                     alt="C++ logo"
+                    loading="lazy"
                     width={50}
                     height={50}
-                    priority
                   />
                   <h5 className="font-heavy">C++</h5>
                 </div>
@@ -178,9 +178,9 @@ export default function Home() {
                   <Image
                     src="/skill/csharp.webp"
                     alt="C# logo"
+                    loading="lazy"
                     width={50}
                     height={50}
-                    priority
                   />
                   <h5 className="font-heavy">C#</h5>
                 </div>
@@ -286,9 +286,9 @@ export default function Home() {
                   className="object-contain self-start"
                   src="/logofull.webp"
                   alt="Ian LEDIG logo"
+                  loading="lazy"
                   width={100}
                   height={0}
-                  priority
                 />
               </div>
               <div className="footer-detail-item">

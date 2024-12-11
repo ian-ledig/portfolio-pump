@@ -38,9 +38,9 @@ const ProjectCardComponent = ({ src, title, description, technologies, links }: 
                                     <Image 
                                         src={link.image}
                                         alt={`${title} icon`}
+                                        loading="lazy"
                                         width={40}
                                         height={40}
-                                        priority
                                     />
                                 </a>
                             ))}
