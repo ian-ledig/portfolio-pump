@@ -34,7 +34,7 @@ const ProjectCardComponent = ({ src, title, description, technologies, links }: 
                         <div>Links</div>
                         <div className="project-card-detail-container">
                             {links.map((link, index) => (
-                                <a key={`link-${index}`} href={link.href} target="_blank">
+                                <a key={`link-${index}`} href={link.href} target="_blank" rel="noreferrer">
                                     <Image 
                                         src={link.image}
                                         alt={`${title} icon`}

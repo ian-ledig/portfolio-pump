@@ -26,7 +26,7 @@ const CollaborationComponent: React.FC = () => {
                         height={0}
                     />
                 </div>
-                <a href="https://moonflyff.fr/" target="_blank">
+                <a href="https://moonflyff.fr/" target="_blank" rel="noreferrer">
                     <Image
                         src="/collaboration/moonflyff.webp"
                         alt="Moon Flyff logo"
@@ -35,7 +35,7 @@ const CollaborationComponent: React.FC = () => {
                         height={0}
                     />
                 </a>
-                <a href="https://airfrance.fr/" target="_blank">
+                <a href="https://airfrance.fr/" target="_blank" rel="noreferrer">
                     <Image
                         src="/collaboration/airfrance.webp"
                         alt="Air France logo"
@@ -44,7 +44,7 @@ const CollaborationComponent: React.FC = () => {
                         height={0}
                     />
                 </a>
-                <a href="https://probtp.com/" target="_blank">
+                <a href="https://probtp.com/" target="_blank" rel="noreferrer">
                     <Image
                         src="/collaboration/probtp.webp"
                         alt="Pro BTP logo"
@@ -53,7 +53,7 @@ const CollaborationComponent: React.FC = () => {
                         height={0}
                     />
                 </a>
-                <a href="https://cawe.com/" target="_blank">
+                <a href="https://cawe.com/" target="_blank" rel="noreferrer">
                     <Image
                         src="/collaboration/cawe.webp"
                         alt="Cawe logo"
@@ -62,7 +62,7 @@ const CollaborationComponent: React.FC = () => {
                         height={0}
                     />
                 </a>
-                <a href="https://arte.tv/" target="_blank">
+                <a href="https://arte.tv/" target="_blank" rel="noreferrer">
                     <Image
                         src="/collaboration/arte.webp"
                         alt="Arte logo"
@@ -71,7 +71,7 @@ const CollaborationComponent: React.FC = () => {
                         height={0}
                     />
                 </a>
-                <a href="https://info-retraite.fr/" target="_blank">
+                <a href="https://info-retraite.fr/" target="_blank" rel="noreferrer">
                     <Image
                         src="/collaboration/gip.webp"
                         alt="Info retraite logo"
@@ -80,7 +80,7 @@ const CollaborationComponent: React.FC = () => {
                         height={0}
                     />
                 </a>
-                <a href="https://agirc-arrco.fr/" target="_blank">
+                <a href="https://agirc-arrco.fr/" target="_blank" rel="noreferrer">
                     <Image
                         src="/collaboration/agircarrco.webp"
                         alt="Agirc-arrco logo"
@@ -108,7 +108,7 @@ const CollaborationComponent: React.FC = () => {
                         height={0}
                     />
                 </div>
-                <a href="https://moonflyff.fr/" target="_blank">
+                <a href="https://moonflyff.fr/" target="_blank" rel="noreferrer">
                     <Image
                         src="/collaboration/moonflyff.webp"
                         alt="Moon Flyff logo"
@@ -117,7 +117,7 @@ const CollaborationComponent: React.FC = () => {
                         height={0}
                     />
                 </a>
-                <a href="https://airfrance.fr/" target="_blank">
+                <a href="https://airfrance.fr/" target="_blank" rel="noreferrer">
                     <Image
                         src="/collaboration/airfrance.webp"
                         alt="Air France logo"
@@ -126,7 +126,7 @@ const CollaborationComponent: React.FC = () => {
                         height={0}
                     />
                 </a>
-                <a href="https://probtp.com/" target="_blank">
+                <a href="https://probtp.com/" target="_blank" rel="noreferrer">
                     <Image
                         src="/collaboration/probtp.webp"
                         alt="Pro BTP logo"
@@ -135,7 +135,7 @@ const CollaborationComponent: React.FC = () => {
                         height={0}
                     />
                 </a>
-                <a href="https://cawe.com/" target="_blank">
+                <a href="https://cawe.com/" target="_blank" rel="noreferrer">
                     <Image
                         src="/collaboration/cawe.webp"
                         alt="Cawe logo"
@@ -144,7 +144,7 @@ const CollaborationComponent: React.FC = () => {
                         height={0}
                     />
                 </a>
-                <a href="https://arte.tv/" target="_blank">
+                <a href="https://arte.tv/" target="_blank" rel="noreferrer">
                     <Image
                         src="/collaboration/arte.webp"
                         alt="Arte logo"
@@ -153,7 +153,7 @@ const CollaborationComponent: React.FC = () => {
                         height={0}
                     />
                 </a>
-                <a href="https://info-retraite.fr/" target="_blank">
+                <a href="https://info-retraite.fr/" target="_blank" rel="noreferrer">
                     <Image
                         src="/collaboration/gip.webp"
                         alt="Info retraite logo"
@@ -162,7 +162,7 @@ const CollaborationComponent: React.FC = () => {
                         height={0}
                     />
                 </a>
-                <a href="https://agirc-arrco.fr/" target="_blank">
+                <a href="https://agirc-arrco.fr/" target="_blank" rel="noreferrer">
                     <Image
                         src="/collaboration/agircarrco.webp"
                         alt="Agirc-arrco logo"

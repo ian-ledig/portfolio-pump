@@ -76,7 +76,7 @@ const NavigationBarComponent: React.FC = () => {
                     <div className="navigation-separator">|</div>
                 </div>
                 <div className="navigation-bar-links">
-                    <a href="https://github.com/ian-ledig" target="_blank" className="self-center">
+                    <a href="https://github.com/ian-ledig" target="_blank" className="self-center" rel="noreferrer">
                         <Image
                             src="/github.webp"
                             alt="Github logo"
@@ -85,7 +85,7 @@ const NavigationBarComponent: React.FC = () => {
                             priority
                         />
                     </a>
-                    <a href="https://www.linkedin.com/in/ian-ledig/" target="_blank" className="self-center mr-3">
+                    <a href="https://www.linkedin.com/in/ian-ledig/" target="_blank" className="self-center mr-3" rel="noreferrer">
                         <Image
                             src="/linkedin.webp"
                             alt="Linkedin logo"
@@ -142,7 +142,7 @@ const NavigationBarComponent: React.FC = () => {
                             Contact
                         </div>
                     </a>
-                    <a href="https://github.com/ian-ledig" target="_blank" className="self-center">
+                    <a href="https://github.com/ian-ledig" target="_blank" className="self-center" rel="noreferrer">
                         <Image
                             src="/github.webp"
                             alt="Github logo"
@@ -151,7 +151,7 @@ const NavigationBarComponent: React.FC = () => {
                             priority
                         />
                     </a>
-                    <a href="https://www.linkedin.com/in/ian-ledig/" target="_blank" className="self-center mr-3">
+                    <a href="https://www.linkedin.com/in/ian-ledig/" target="_blank" className="self-center mr-3" rel="noreferrer">
                         <Image
                             src="/linkedin.webp"
                             alt="Linkedin logo"

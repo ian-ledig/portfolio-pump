@@ -294,9 +294,9 @@ export default function Home() {
               <div className="footer-detail-item">
                 <div className="footer-detail-item-column">
                   <div className="font-heavy">Social</div>
-                  <a href="https://www.linkedin.com/in/ian-ledig/" target="_blank" className="font-regular">Linkedin</a>
-                  <a href="https://github.com/ian-ledig" target="_blank" className="font-regular">Github</a>
-                  <a href="mailto:ian.ledigfr@gmail.com" target="_blank" className="font-regular">Email</a>
+                  <a href="https://www.linkedin.com/in/ian-ledig/" target="_blank" className="font-regular" rel="noreferrer">Linkedin</a>
+                  <a href="https://github.com/ian-ledig" target="_blank" className="font-regular" rel="noreferrer">Github</a>
+                  <a href="mailto:ian.ledigfr@gmail.com" target="_blank" className="font-regular" rel="noreferrer">Email</a>
                 </div>
                 <div className="footer-detail-item-column">
                   <div className="font-heavy">Navigation</div>
@@ -308,11 +308,11 @@ export default function Home() {
                 </div>
                 <div className="footer-detail-item-column">
                   <div className="font-heavy">Usage</div>
-                  <a href="https://github.com/ian-ledig/portfolio-pump/blob/master/LICENSE" target="_blank" className="font-regular">MIT</a>
+                  <a href="https://github.com/ian-ledig/portfolio-pump/blob/master/LICENSE" target="_blank" className="font-regular" rel="noreferrer">MIT</a>
                 </div>
                 <div className="footer-detail-item-column">
                   <div className="font-heavy">Other</div>
-                  <a href="https://github.com/ian-ledig/portfolio-pump" target="_blank" className="font-regular">Project source</a>
+                  <a href="https://github.com/ian-ledig/portfolio-pump" target="_blank" className="font-regular" rel="noreferrer">Project source</a>
                 </div>
               </div>
             </div>
