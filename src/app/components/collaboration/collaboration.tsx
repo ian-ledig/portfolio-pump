@@ -8,24 +8,24 @@ const CollaborationComponent: React.FC = () => {
     return (
         <div className="collaboration">
             <div className="collaboration-items">
-                <a>
+                <div>
                     <Image
                         src="/collaboration/alysiaonline.png"
                         alt="Alysia Online logo"
-                        width={300}
+                        width={200}
                         height={0}
                         priority
                     />
-                </a>
-                <a>
+                </div>
+                <div>
                     <Image
                         src="/collaboration/forsakenflyff.png"
                         alt="Forsaken Kindgdom logo"
-                        width={500}
+                        width={200}
                         height={0}
                         priority
                     />
-                </a>
+                </div>
                 <a href="https://moonflyff.fr/" target="_blank">
                     <Image
                         src="/collaboration/moonflyff.png"
@@ -90,24 +90,24 @@ const CollaborationComponent: React.FC = () => {
                     />
                 </a>
                 {/* second */}
-                <a>
+                <div>
                     <Image
                         src="/collaboration/alysiaonline.png"
                         alt="Alysia Online logo"
-                        width={300}
+                        width={200}
                         height={0}
                         priority
                     />
-                </a>
-                <a>
+                </div>
+                <div>
                     <Image
                         src="/collaboration/forsakenflyff.png"
                         alt="Forsaken Kindgdom logo"
-                        width={500}
+                        width={200}
                         height={0}
                         priority
                     />
-                </a>
+                </div>
                 <a href="https://moonflyff.fr/" target="_blank">
                     <Image
                         src="/collaboration/moonflyff.png"
