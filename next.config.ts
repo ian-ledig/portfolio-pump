@@ -1,4 +1,4 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   devIndicators: {
@@ -16,19 +16,18 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/media/:path*',
-        headers: [
-          { key: 'Cache-Control', value: 'public, max-age=3600' },
-        ],
+        headers: [{ key: 'Cache-Control', value: 'public, max-age=3600' }],
       },
-    ]
+    ];
   },
 
   experimental: {
-    optimizeCss: true
+    optimizeCss: true,
   },
 
   compiler: {
-    removeConsole: process.env.NODE_ENV === 'production' ? { exclude: ['error'] } : false,
+    removeConsole:
+      process.env.NODE_ENV === 'production' ? { exclude: ['error'] } : false,
   },
 
   compress: true,

@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import React, { useEffect } from "react";
-import Image from "next/image";
-import "./ink-image.css";
+import React, { useEffect } from 'react';
+import Image from 'next/image';
+import './ink-image.css';
 
 interface InkImageComponentProps {
   src: string;
@@ -10,23 +10,22 @@ interface InkImageComponentProps {
 }
 
 const InkImageComponent: React.FC<InkImageComponentProps> = ({ src, alt }) => {
-
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      import("scrollmagic").then((ScrollMagicModule) => {
+    if (typeof window !== 'undefined') {
+      import('scrollmagic').then((ScrollMagicModule) => {
         const ScrollMagic = ScrollMagicModule.default;
 
         if (ScrollMagic) {
-
           const controller = new ScrollMagic.Controller();
 
-          const inkTriggers = document.querySelectorAll<HTMLDivElement>(".js-ink-trigger");
+          const inkTriggers =
+            document.querySelectorAll<HTMLDivElement>('.js-ink-trigger');
           inkTriggers.forEach((ink) => {
             new ScrollMagic.Scene({
               triggerElement: ink,
-              triggerHook: "onEnter",
+              triggerHook: 'onEnter',
             })
-              .setClassToggle(ink, "is-active")
+              .setClassToggle(ink, 'is-active')
               .reverse(false)
               .addTo(controller);
           });

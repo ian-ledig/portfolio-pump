@@ -1,16 +1,16 @@
-"use client";
+'use client';
 
-import React, { useEffect, useState } from "react";
-import "./random-text.css";
+import React, { useEffect, useState } from 'react';
+import './random-text.css';
 
 const words = [
-  "website for your business?",
-  "custom software?",
-  "mobile application for IOS and Android?",
+  'website for your business?',
+  'custom software?',
+  'mobile application for IOS and Android?',
 ];
 
 const RandomTextComponent: React.FC = () => {
-  const [part, setPart] = useState<string>("");
+  const [part, setPart] = useState<string>('');
   const [index, setIndex] = useState<number>(0);
   const [offset, setOffset] = useState<number>(0);
   const [isFadingOut, setIsFadingOut] = useState<boolean>(false);
@@ -49,8 +49,8 @@ const RandomTextComponent: React.FC = () => {
 
   return (
     <>
-      Need a{" "}
-      <span className={`fade-text ${isFadingOut ? "fade-out" : ""}`}>
+      Need a{' '}
+      <span className={`fade-text ${isFadingOut ? 'fade-out' : ''}`}>
         {part}_
       </span>
     </>
