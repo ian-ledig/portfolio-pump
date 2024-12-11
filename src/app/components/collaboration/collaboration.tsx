@@ -10,7 +10,7 @@ const CollaborationComponent: React.FC = () => {
             <div className="collaboration-items">
                 <div>
                     <Image
-                        src="/collaboration/alysiaonline.png"
+                        src="/collaboration/alysiaonline.webp"
                         alt="Alysia Online logo"
                         width={200}
                         height={0}
@@ -19,7 +19,7 @@ const CollaborationComponent: React.FC = () => {
                 </div>
                 <div>
                     <Image
-                        src="/collaboration/forsakenflyff.png"
+                        src="/collaboration/forsakenflyff.webp"
                         alt="Forsaken Kindgdom logo"
                         width={200}
                         height={0}
@@ -28,7 +28,7 @@ const CollaborationComponent: React.FC = () => {
                 </div>
                 <a href="https://moonflyff.fr/" target="_blank">
                     <Image
-                        src="/collaboration/moonflyff.png"
+                        src="/collaboration/moonflyff.webp"
                         alt="Moon Flyff logo"
                         width={300}
                         height={0}
@@ -37,7 +37,7 @@ const CollaborationComponent: React.FC = () => {
                 </a>
                 <a href="https://airfrance.fr/" target="_blank">
                     <Image
-                        src="/collaboration/airfrance.png"
+                        src="/collaboration/airfrance.webp"
                         alt="Air France logo"
                         width={300}
                         height={0}
@@ -46,7 +46,7 @@ const CollaborationComponent: React.FC = () => {
                 </a>
                 <a href="https://probtp.com/" target="_blank">
                     <Image
-                        src="/collaboration/probtp.png"
+                        src="/collaboration/probtp.webp"
                         alt="Pro BTP logo"
                         width={300}
                         height={0}
@@ -55,7 +55,7 @@ const CollaborationComponent: React.FC = () => {
                 </a>
                 <a href="https://cawe.com/" target="_blank">
                     <Image
-                        src="/collaboration/cawe.png"
+                        src="/collaboration/cawe.webp"
                         alt="Cawe logo"
                         width={300}
                         height={0}
@@ -64,7 +64,7 @@ const CollaborationComponent: React.FC = () => {
                 </a>
                 <a href="https://arte.tv/" target="_blank">
                     <Image
-                        src="/collaboration/arte.png"
+                        src="/collaboration/arte.webp"
                         alt="Arte logo"
                         width={300}
                         height={0}
@@ -73,7 +73,7 @@ const CollaborationComponent: React.FC = () => {
                 </a>
                 <a href="https://info-retraite.fr/" target="_blank">
                     <Image
-                        src="/collaboration/gip.png"
+                        src="/collaboration/gip.webp"
                         alt="Info retraite logo"
                         width={300}
                         height={0}
@@ -82,7 +82,7 @@ const CollaborationComponent: React.FC = () => {
                 </a>
                 <a href="https://agirc-arrco.fr/" target="_blank">
                     <Image
-                        src="/collaboration/agircarrco.png"
+                        src="/collaboration/agircarrco.webp"
                         alt="Agirc-arrco logo"
                         width={300}
                         height={0}
@@ -92,7 +92,7 @@ const CollaborationComponent: React.FC = () => {
                 {/* second */}
                 <div>
                     <Image
-                        src="/collaboration/alysiaonline.png"
+                        src="/collaboration/alysiaonline.webp"
                         alt="Alysia Online logo"
                         width={200}
                         height={0}
@@ -101,7 +101,7 @@ const CollaborationComponent: React.FC = () => {
                 </div>
                 <div>
                     <Image
-                        src="/collaboration/forsakenflyff.png"
+                        src="/collaboration/forsakenflyff.webp"
                         alt="Forsaken Kindgdom logo"
                         width={200}
                         height={0}
@@ -110,7 +110,7 @@ const CollaborationComponent: React.FC = () => {
                 </div>
                 <a href="https://moonflyff.fr/" target="_blank">
                     <Image
-                        src="/collaboration/moonflyff.png"
+                        src="/collaboration/moonflyff.webp"
                         alt="Moon Flyff logo"
                         width={300}
                         height={0}
@@ -119,7 +119,7 @@ const CollaborationComponent: React.FC = () => {
                 </a>
                 <a href="https://airfrance.fr/" target="_blank">
                     <Image
-                        src="/collaboration/airfrance.png"
+                        src="/collaboration/airfrance.webp"
                         alt="Air France logo"
                         width={300}
                         height={0}
@@ -128,7 +128,7 @@ const CollaborationComponent: React.FC = () => {
                 </a>
                 <a href="https://probtp.com/" target="_blank">
                     <Image
-                        src="/collaboration/probtp.png"
+                        src="/collaboration/probtp.webp"
                         alt="Pro BTP logo"
                         width={300}
                         height={0}
@@ -137,7 +137,7 @@ const CollaborationComponent: React.FC = () => {
                 </a>
                 <a href="https://cawe.com/" target="_blank">
                     <Image
-                        src="/collaboration/cawe.png"
+                        src="/collaboration/cawe.webp"
                         alt="Cawe logo"
                         width={300}
                         height={0}
@@ -146,7 +146,7 @@ const CollaborationComponent: React.FC = () => {
                 </a>
                 <a href="https://arte.tv/" target="_blank">
                     <Image
-                        src="/collaboration/arte.png"
+                        src="/collaboration/arte.webp"
                         alt="Arte logo"
                         width={300}
                         height={0}
@@ -155,7 +155,7 @@ const CollaborationComponent: React.FC = () => {
                 </a>
                 <a href="https://info-retraite.fr/" target="_blank">
                     <Image
-                        src="/collaboration/gip.png"
+                        src="/collaboration/gip.webp"
                         alt="Info retraite logo"
                         width={300}
                         height={0}
@@ -164,7 +164,7 @@ const CollaborationComponent: React.FC = () => {
                 </a>
                 <a href="https://agirc-arrco.fr/" target="_blank">
                     <Image
-                        src="/collaboration/agircarrco.png"
+                        src="/collaboration/agircarrco.webp"
                         alt="Agirc-arrco logo"
                         width={300}
                         height={0}

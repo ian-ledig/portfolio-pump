@@ -26,12 +26,12 @@ export default function Home() {
       <main className="body" id="home">
         <section className="home" aria-labelledby="home-title">
           <div className="home-picture">
-            <InkImageComponent src="picture0.png" alt="Sakurajima picture"/>
+            <InkImageComponent src="picture0.webp" alt="Sakurajima picture"/>
           </div>
           <aside className="profile-card">
             <div className="profile-card-picture">
               <Image
-                src="/profile.png"
+                src="/profile.webp"
                 alt="Ian LEDIG profile picture"
                 width={300}
                 height={0}
@@ -74,7 +74,7 @@ export default function Home() {
               <div className="skill-icons">
                 <div className="skill-icon-item">
                   <Image
-                    src="/skill/angular.png"
+                    src="/skill/angular.webp"
                     alt="Angular logo"
                     width={50}
                     height={50}
@@ -84,7 +84,7 @@ export default function Home() {
                 </div>
                 <div className="skill-icon-item">
                   <Image
-                    src="/skill/react.png"
+                    src="/skill/react.webp"
                     alt="React logo"
                     width={50}
                     height={50}
@@ -94,7 +94,7 @@ export default function Home() {
                 </div>
                 <div className="skill-icon-item">
                   <Image
-                    src="/skill/electron.png"
+                    src="/skill/electron.webp"
                     alt="Electron logo"
                     width={50}
                     height={50}
@@ -110,7 +110,7 @@ export default function Home() {
               <div className="skill-icons">
                 <div className="skill-icon-item">
                   <Image
-                    src="/skill/ionic.png"
+                    src="/skill/ionic.webp"
                     alt="Ionic logo"
                     width={50}
                     height={50}
@@ -120,7 +120,7 @@ export default function Home() {
                 </div>
                 <div className="skill-icon-item">
                   <Image
-                    src="/skill/android.png"
+                    src="/skill/android.webp"
                     alt="Android logo"
                     width={50}
                     height={50}
@@ -130,7 +130,7 @@ export default function Home() {
                 </div>
                 <div className="skill-icon-item">
                   <Image
-                    src="/skill/apple.png"
+                    src="/skill/apple.webp"
                     alt="Apple logo"
                     width={50}
                     height={50}
@@ -146,7 +146,7 @@ export default function Home() {
               <div className="skill-icons">
                 <div className="skill-icon-item">
                   <Image
-                    src="/skill/java.png"
+                    src="/skill/java.webp"
                     alt="Java logo"
                     width={50}
                     height={50}
@@ -156,7 +156,7 @@ export default function Home() {
                 </div>
                 <div className="skill-icon-item">
                   <Image
-                    src="/skill/spring.png"
+                    src="/skill/spring.webp"
                     alt="Spring logo"
                     width={50}
                     height={50}
@@ -166,7 +166,7 @@ export default function Home() {
                 </div>
                 <div className="skill-icon-item">
                   <Image
-                    src="/skill/cpp.png"
+                    src="/skill/cpp.webp"
                     alt="C++ logo"
                     width={50}
                     height={50}
@@ -176,7 +176,7 @@ export default function Home() {
                 </div>
                 <div className="skill-icon-item">
                   <Image
-                    src="/skill/csharp.png"
+                    src="/skill/csharp.webp"
                     alt="C# logo"
                     width={50}
                     height={50}
@@ -192,83 +192,83 @@ export default function Home() {
           <h2 className="title title-1 font-black">Projects_</h2>
           <div className="project">
             <ProjectCardComponent 
-              src="/project/airfrance.png"
+              src="/project/airfrance.webp"
               title="Airport Flight Consultation"
               description="Development of a flight, passenger, baggage consultation application for airport agents. Including architecture, development, testing, deployment and production release on the cloud."
               technologies={["Angular", "Java", "Spring", "SQL", "Azure"]}
               links={[]}
             />
             <ProjectCardComponent 
-              src="/project/moncompteretraite.png"
+              src="/project/moncompteretraite.webp"
               title="French Retirement Application"
               description="Development of “Mon Compte Retraite” mobile application for iOS and Android, ensured communication security, production monitoring and designed batch processes."
               technologies={["Angular", "Ionic", "Java", "Spring", "SQL"]}
               links={[
-                {href:"https://play.google.com/store/apps/details?id=fr.agircarrco.smartretraite", image:"/project/icon/android.png"},
-                {href:"https://apps.apple.com/fr/app/mon-compte-retraite/id1176066236", image:"/project/icon/apple.png"},
+                {href:"https://play.google.com/store/apps/details?id=fr.agircarrco.smartretraite", image:"/project/icon/android.webp"},
+                {href:"https://apps.apple.com/fr/app/mon-compte-retraite/id1176066236", image:"/project/icon/apple.webp"},
               ]}
             />
             <ProjectCardComponent 
-              src="/project/cawe.png"
+              src="/project/cawe.webp"
               title="CAWE Stock Traceability"
               description="Development of a stock traceability mobile application for Android platforms."
               technologies={["C#", "Xamarin", "SQL"]}
               links={[]}
             />
             <ProjectCardComponent 
-              src="/project/kanjitest.png"
+              src="/project/kanjitest.webp"
               title="日本語 Vocabulary Test"
               description="Interactive app designed to help users to learn and memorize Japanese vocabulary."
               technologies={["Electron", "JavaScript"]}
               links={[
-                {href:"https://github.com/ian-ledig/kanji-test", image:"/project/icon/github.png"},
+                {href:"https://github.com/ian-ledig/kanji-test", image:"/project/icon/github.webp"},
               ]}
             />
             <ProjectCardComponent 
-              src="/project/dynamx.png"
+              src="/project/dynamx.webp"
               title="3D Model converter"
               description="Contains two programs that allow converting Toolbox .java models designed for Minecraft Flan's mod to work with the DynamX mod."
               technologies={["Python", "Java"]}
               links={[
-                {href:"https://github.com/ian-ledig/FlanToDynamX", image:"/project/icon/github.png"},
+                {href:"https://github.com/ian-ledig/FlanToDynamX", image:"/project/icon/github.webp"},
               ]}
             />
             <ProjectCardComponent 
-              src="/project/portfoliopump.png"
+              src="/project/portfoliopump.webp"
               title="Pump Portfolio"
               description="Portfolio website to showcase my skills and projects."
               technologies={["React", "Next.js"]}
               links={[
-                {href:"https://github.com/ian-ledig/portfolio-pump", image:"/project/icon/github.png"},
+                {href:"https://github.com/ian-ledig/portfolio-pump", image:"/project/icon/github.webp"},
               ]}
             />
             <ProjectCardComponent 
-              src="/project/alysiaonline.png"
+              src="/project/alysiaonline.webp"
               title="Alysia Online MMORPG"
               description="Modernizing a older open-source multiplayer game by incorporating current industry gameplay standards, mechanics and optimized the codebase to align with contemporary user expectations and performance benchmarks."
               technologies={["C++", "SQL"]}
               links={[]}
             />
             <ProjectCardComponent 
-              src="/project/archeroes.png"
+              src="/project/archeroes.webp"
               title="Serious Archeology Game"
               description="Archeroes is a serious game designed to introduce players to the basics and principles of archaeology."
               technologies={["Java", "JavaFX"]}
               links={[
-                {href:"https://github.com/ian-ledig/ekip-serious-game-archeros", image:"/project/icon/github.png"},
+                {href:"https://github.com/ian-ledig/ekip-serious-game-archeros", image:"/project/icon/github.webp"},
               ]}
             />
             <ProjectCardComponent 
-              src="/project/inforetraite.png"
+              src="/project/inforetraite.webp"
               title="Info Retraite Website"
               description="Improving and monitoring of the Info Retraite website, including the development of new features and the correction of bugs."
               technologies={["Angular", "Java", "Spring", "SQL"]}
               links={[
-                {href:"https://info-retraite.fr/", image:"/project/icon/link.png"},
+                {href:"https://info-retraite.fr/", image:"/project/icon/link.webp"},
               ]}
             />
             <ProjectCardComponent 
-              src="/project/grooveai.png"
+              src="/project/grooveai.webp"
               title="Groove AI Music recognizer"
               description="Development of a music theme recognition application using AI and machine learning."
               technologies={["Python"]}
@@ -284,7 +284,7 @@ export default function Home() {
               <div className="footer-detail-item">
                 <Image
                   className="object-contain self-start"
-                  src="/logofull.png"
+                  src="/logofull.webp"
                   alt="Ian LEDIG logo"
                   width={100}
                   height={0}
