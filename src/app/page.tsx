@@ -109,8 +109,8 @@ export default function Home() {
                     src="/skill/react.webp"
                     alt="React logo"
                     loading="lazy"
-                    width={50}
-                    height={50}
+                    width={60}
+                    height={60}
                   />
                   <h5 className="font-heavy">React</h5>
                 </div>
@@ -138,8 +138,8 @@ export default function Home() {
                     src="/skill/ionic.webp"
                     alt="Ionic logo"
                     loading="lazy"
-                    width={50}
-                    height={50}
+                    width={52}
+                    height={52}
                   />
                   <h5 className="font-heavy">Ionic</h5>
                 </div>
@@ -158,8 +158,8 @@ export default function Home() {
                     src="/skill/apple.webp"
                     alt="Apple logo"
                     loading="lazy"
-                    width={50}
-                    height={50}
+                    width={44}
+                    height={44}
                   />
                   <h5 className="font-heavy">Apple</h5>
                 </div>
@@ -187,8 +187,8 @@ export default function Home() {
                     src="/skill/spring.webp"
                     alt="Spring logo"
                     loading="lazy"
-                    width={50}
-                    height={50}
+                    width={53}
+                    height={53}
                   />
                   <h5 className="font-heavy">Spring</h5>
                 </div>
