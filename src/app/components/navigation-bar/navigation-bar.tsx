@@ -72,6 +72,7 @@ const NavigationBarComponent: React.FC = () => {
         <div className="navigation-bar-links">
           <a href="">
             <Image
+              className='logo'
               src="/logofull.webp"
               alt="Ian LEDIG logo"
               width={100}

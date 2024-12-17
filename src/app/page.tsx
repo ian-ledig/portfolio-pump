@@ -6,6 +6,7 @@ import InkImageComponent from './components/ink-image/ink-image';
 import CollaborationComponent from './components/collaboration/collaboration';
 import ProjectCardComponent from './components/project-card/project-card';
 import ContactComponent from './components/contact/contact';
+import ThemeSwitch from './components/theme-switch/theme-switch';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import './home.css';
 
@@ -41,6 +42,7 @@ export default function Home() {
                 priority
               />
             </div>
+            <ThemeSwitch />
             <div className="profile-card-bio">
               <div className="title-1 font-black">Ian LEDIG</div>
               <div className="subtitle-1 info-text font-regular">
@@ -332,7 +334,7 @@ export default function Home() {
           <div className="footer-detail">
             <div className="footer-detail-item">
               <Image
-                className="object-contain self-start"
+                className="logo object-contain self-start"
                 src="/logofull.webp"
                 alt="Ian LEDIG logo"
                 loading="lazy"
