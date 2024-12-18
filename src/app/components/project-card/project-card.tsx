@@ -25,13 +25,7 @@ const ProjectCardComponent = ({
   return (
     <article className="project-card">
       <div className="project-card-background">
-        <Image
-          src={src}
-          alt={title}
-          loading="lazy"
-          width={500}
-          height={500}
-        />
+        <Image src={src} alt={title} loading="lazy" width={500} height={500} />
       </div>
       <div className="project-card-detail">
         <h3 className="subtitle-1">{title}</h3>
