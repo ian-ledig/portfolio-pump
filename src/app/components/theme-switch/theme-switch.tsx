@@ -1,15 +1,18 @@
-"use client"
+'use client';
 
 import Reactm, { useEffect, useState } from 'react';
 import { FaSun, FaMoon } from 'react-icons/fa';
 
 const ThemeSwitch: React.FC = () => {
-    const [isDarkTheme, setIsDarkTheme] = useState(false);
+  const [isDarkTheme, setIsDarkTheme] = useState(false);
 
   useEffect(() => {
     const savedTheme = localStorage.getItem('theme') || 'light';
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const initialTheme = savedTheme === 'dark' || (savedTheme === 'auto' && prefersDark);
+    const prefersDark = window.matchMedia(
+      '(prefers-color-scheme: dark)'
+    ).matches;
+    const initialTheme =
+      savedTheme === 'dark' || (savedTheme === 'auto' && prefersDark);
 
     setIsDarkTheme(initialTheme);
     document.body.classList.toggle('dark-theme', initialTheme);
@@ -31,7 +34,7 @@ const ThemeSwitch: React.FC = () => {
         )}
       </button>
     </>
-  )
-}
+  );
+};
 
-export default ThemeSwitch
+export default ThemeSwitch;
