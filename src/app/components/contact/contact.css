@@ -6,7 +6,6 @@
     .contact-card{
         display: flex;
         flex-direction: column;
-        gap: 5px;
         background: linear-gradient(to bottom, var(--secondary) 50px, transparent 0px);
         text-align: center;
         width: 70%;
