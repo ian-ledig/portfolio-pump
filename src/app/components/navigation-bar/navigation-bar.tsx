@@ -9,6 +9,7 @@ import {
   IoCodeSlash,
   IoMailOpen,
 } from 'react-icons/io5';
+import ThemeSwitch from '../theme-switch/theme-switch';
 import './navigation-bar.css';
 
 const NavigationBarComponent: React.FC = () => {
@@ -115,6 +116,7 @@ const NavigationBarComponent: React.FC = () => {
           <div className="navigation-separator">|</div>
         </div>
         <div className="navigation-bar-links">
+          <ThemeSwitch />
           <a
             href="https://github.com/ian-ledig"
             target="_blank"

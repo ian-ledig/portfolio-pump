@@ -1,6 +1,7 @@
 "use client"
 
-import Reactm, { useEffect, useState } from 'react'
+import Reactm, { useEffect, useState } from 'react';
+import { FaSun, FaMoon } from 'react-icons/fa';
 
 const ThemeSwitch: React.FC = () => {
     const [isDarkTheme, setIsDarkTheme] = useState(false);
@@ -21,11 +22,15 @@ const ThemeSwitch: React.FC = () => {
     localStorage.setItem('theme', newTheme ? 'dark' : 'light');
   };
   return (
-    <div>
+    <>
       <button onClick={toggleTheme}>
-        Switch theme {isDarkTheme ? 'clair' : 'sombre'}
+        {isDarkTheme ? (
+          <FaSun size={22} style={{ color: 'var(--secondary)' }} />
+        ) : (
+          <FaMoon size={22} style={{ color: 'var(--secondary)' }} />
+        )}
       </button>
-    </div>
+    </>
   )
 }
 
