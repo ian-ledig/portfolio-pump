@@ -194,6 +194,7 @@ const NavigationBarComponent: React.FC = () => {
             <IoMailOpen size={20} className="mt-2" />
             <div className="text-xs">Contact</div>
           </a>
+          <ThemeSwitch />
           <a
             href="https://github.com/ian-ledig"
             target="_blank"
