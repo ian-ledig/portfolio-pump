@@ -293,16 +293,11 @@ export default function Home() {
               links={[]}
             />
             <ProjectCardComponent
-              src="/project/archeroes.webp"
-              title="Serious Archeology Game"
-              description="Archeroes is a serious game designed to introduce players to the basics and principles of archaeology."
-              technologies={['Java', 'JavaFX']}
-              links={[
-                {
-                  href: 'https://github.com/ian-ledig/ekip-serious-game-archeros',
-                  image: '/project/icon/github.webp',
-                },
-              ]}
+              src="/project/grooveai.webp"
+              title="Groove AI Music recognizer"
+              description="Development of a music theme recognition application using AI and machine learning."
+              technologies={['Python']}
+              links={[]}
             />
             <ProjectCardComponent
               src="/project/inforetraite.webp"
@@ -317,11 +312,16 @@ export default function Home() {
               ]}
             />
             <ProjectCardComponent
-              src="/project/grooveai.webp"
-              title="Groove AI Music recognizer"
-              description="Development of a music theme recognition application using AI and machine learning."
-              technologies={['Python']}
-              links={[]}
+              src="/project/archeroes.webp"
+              title="Serious Archeology Game"
+              description="Archeroes is a serious game designed to introduce players to the basics and principles of archaeology."
+              technologies={['Java', 'JavaFX']}
+              links={[
+                {
+                  href: 'https://github.com/ian-ledig/ekip-serious-game-archeros',
+                  image: '/project/icon/github.webp',
+                },
+              ]}
             />
           </div>
         </section>
@@ -332,7 +332,7 @@ export default function Home() {
           <div className="footer-detail">
             <div className="footer-detail-item">
               <Image
-                className="object-contain self-start"
+                className="logo object-contain self-start"
                 src="/logofull.webp"
                 alt="Ian LEDIG logo"
                 loading="lazy"
