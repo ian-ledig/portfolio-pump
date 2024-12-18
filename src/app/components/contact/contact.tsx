@@ -43,7 +43,7 @@ const ContactComponent: React.FC = () => {
       <div className="contact">
         <div className="contact-card">
           <div className="subtitle-1 text-white">Get in touch with me</div>
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} className='contact-card-form'>
             <div>
               <label className="mb-0.5" htmlFor="email">
                 Email

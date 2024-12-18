@@ -9,6 +9,7 @@ import {
   IoCodeSlash,
   IoMailOpen,
 } from 'react-icons/io5';
+import ThemeSwitch from '../theme-switch/theme-switch';
 import './navigation-bar.css';
 
 const NavigationBarComponent: React.FC = () => {
@@ -72,6 +73,7 @@ const NavigationBarComponent: React.FC = () => {
         <div className="navigation-bar-links">
           <a href="">
             <Image
+              className='logo'
               src="/logofull.webp"
               alt="Ian LEDIG logo"
               width={100}
@@ -114,6 +116,7 @@ const NavigationBarComponent: React.FC = () => {
           <div className="navigation-separator">|</div>
         </div>
         <div className="navigation-bar-links">
+          <ThemeSwitch />
           <a
             href="https://github.com/ian-ledig"
             target="_blank"
@@ -191,6 +194,7 @@ const NavigationBarComponent: React.FC = () => {
             <IoMailOpen size={20} className="mt-2" />
             <div className="text-xs">Contact</div>
           </a>
+          <ThemeSwitch />
           <a
             href="https://github.com/ian-ledig"
             target="_blank"

@@ -109,8 +109,8 @@ export default function Home() {
                     src="/skill/react.webp"
                     alt="React logo"
                     loading="lazy"
-                    width={50}
-                    height={50}
+                    width={60}
+                    height={60}
                   />
                   <h5 className="font-heavy">React</h5>
                 </div>
@@ -138,8 +138,8 @@ export default function Home() {
                     src="/skill/ionic.webp"
                     alt="Ionic logo"
                     loading="lazy"
-                    width={50}
-                    height={50}
+                    width={52}
+                    height={52}
                   />
                   <h5 className="font-heavy">Ionic</h5>
                 </div>
@@ -158,8 +158,8 @@ export default function Home() {
                     src="/skill/apple.webp"
                     alt="Apple logo"
                     loading="lazy"
-                    width={50}
-                    height={50}
+                    width={44}
+                    height={44}
                   />
                   <h5 className="font-heavy">Apple</h5>
                 </div>
@@ -187,8 +187,8 @@ export default function Home() {
                     src="/skill/spring.webp"
                     alt="Spring logo"
                     loading="lazy"
-                    width={50}
-                    height={50}
+                    width={53}
+                    height={53}
                   />
                   <h5 className="font-heavy">Spring</h5>
                 </div>
@@ -293,16 +293,11 @@ export default function Home() {
               links={[]}
             />
             <ProjectCardComponent
-              src="/project/archeroes.webp"
-              title="Serious Archeology Game"
-              description="Archeroes is a serious game designed to introduce players to the basics and principles of archaeology."
-              technologies={['Java', 'JavaFX']}
-              links={[
-                {
-                  href: 'https://github.com/ian-ledig/ekip-serious-game-archeros',
-                  image: '/project/icon/github.webp',
-                },
-              ]}
+              src="/project/grooveai.webp"
+              title="Groove AI Music recognizer"
+              description="Development of a music theme recognition application using AI and machine learning."
+              technologies={['Python']}
+              links={[]}
             />
             <ProjectCardComponent
               src="/project/inforetraite.webp"
@@ -317,11 +312,16 @@ export default function Home() {
               ]}
             />
             <ProjectCardComponent
-              src="/project/grooveai.webp"
-              title="Groove AI Music recognizer"
-              description="Development of a music theme recognition application using AI and machine learning."
-              technologies={['Python']}
-              links={[]}
+              src="/project/archeroes.webp"
+              title="Serious Archeology Game"
+              description="Archeroes is a serious game designed to introduce players to the basics and principles of archaeology."
+              technologies={['Java', 'JavaFX']}
+              links={[
+                {
+                  href: 'https://github.com/ian-ledig/ekip-serious-game-archeros',
+                  image: '/project/icon/github.webp',
+                },
+              ]}
             />
           </div>
         </section>
@@ -332,7 +332,7 @@ export default function Home() {
           <div className="footer-detail">
             <div className="footer-detail-item">
               <Image
-                className="object-contain self-start"
+                className="logo object-contain self-start"
                 src="/logofull.webp"
                 alt="Ian LEDIG logo"
                 loading="lazy"
