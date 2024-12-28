@@ -17,7 +17,11 @@ const CollaborationComponent: React.FC = () => {
             height={0}
           />
         </div>
-        <a href='https://forsaken-kingdom.com/' target='_blank' rel='noreferrer'>
+        <a
+          href="https://forsaken-kingdom.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Image
             src="/collaboration/forsakenflyff.webp"
             alt="Forsaken Kindgdom logo"
