@@ -17,7 +17,11 @@ const CollaborationComponent: React.FC = () => {
             height={0}
           />
         </div>
-        <div>
+        <a
+          href="https://forsaken-kingdom.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Image
             src="/collaboration/forsakenflyff.webp"
             alt="Forsaken Kindgdom logo"
@@ -25,7 +29,7 @@ const CollaborationComponent: React.FC = () => {
             width={200}
             height={0}
           />
-        </div>
+        </a>
         <a href="https://moonflyff.fr/" target="_blank" rel="noreferrer">
           <Image
             src="/collaboration/moonflyff.webp"
