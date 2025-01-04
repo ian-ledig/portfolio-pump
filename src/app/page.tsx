@@ -413,7 +413,7 @@ export default function Home() {
           <div>
             <div className="separator mb-3"></div>
             <div className="text-end opacity-80">
-              Copyright © 2024 Ian LEDIG
+              Copyright © 2025 Ian LEDIG
             </div>
           </div>
         </footer>
