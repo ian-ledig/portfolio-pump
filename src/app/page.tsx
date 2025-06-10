@@ -44,7 +44,7 @@ export default function Home() {
             <div className="profile-card-bio">
               <div className="title-1 font-black">Ian LEDIG</div>
               <div className="subtitle-1 info-text font-regular">
-                Fullstack Developer
+                Software Engineer
               </div>
               <div className="flex items-center info-text justify-center">
                 <FaMapMarkerAlt
@@ -53,7 +53,7 @@ export default function Home() {
                   style={{ color: 'var(--secondary)' }}
                 />
                 <div className="subtitle-3 mb-3 font-regular">
-                  Marseille, France
+                  大阪、日本
                 </div>
               </div>
             </div>
@@ -220,6 +220,26 @@ export default function Home() {
           <h2 className="title title-1 font-black">Projects_</h2>
           <div className="project">
             <ProjectCardComponent
+              src="/project/flighttracker.webp"
+              title="Flight Tracking Application"
+              description="Flight Tracker is a sleek web app that helps users quickly find upcoming flights by entering an airline code, with optional filters for flight number and long-haul routes. Perfect for travelers, airline staff, or trip planners seeking real-time flight info in a simple interface."
+              technologies={['React', 'Java', 'Spring']}
+              links={[
+                {
+                  href: 'https://ian-ledig.com/flight-tracker',
+                  image: '/project/icon/link.webp',
+                },
+                {
+                  href: 'https://github.com/ian-ledig/flight-tracker-cs',
+                  image: '/project/icon/github.webp',
+                },
+                {
+                  href: 'https://github.com/ian-ledig/flight-tracker-ss',
+                  image: '/project/icon/github.webp',
+                },
+              ]}
+            />
+            <ProjectCardComponent
               src="/project/airfrance.webp"
               title="Airport Flight Consultation"
               description="Development of a flight, passenger, baggage consultation application for airport agents. Including architecture, development, testing, deployment and production release on the cloud."
@@ -279,6 +299,10 @@ export default function Home() {
               description="Portfolio website to showcase my skills and projects."
               technologies={['React', 'Next.js']}
               links={[
+                {
+                  href: 'https://ian-ledig.com/',
+                  image: '/project/icon/link.webp',
+                },
                 {
                   href: 'https://github.com/ian-ledig/portfolio-pump',
                   image: '/project/icon/github.webp',
