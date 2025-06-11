@@ -52,9 +52,7 @@ export default function Home() {
                   className="mb-3.5 mr-1"
                   style={{ color: 'var(--secondary)' }}
                 />
-                <div className="subtitle-3 mb-3 font-regular">
-                  大阪、日本
-                </div>
+                <div className="subtitle-3 mb-3 font-regular">大阪、日本</div>
               </div>
             </div>
             <div className="profile-card-education">
@@ -90,8 +88,8 @@ export default function Home() {
             <div className="skill-item">
               <h3 className="title-2 font-heavy">Web Development</h3>
               <h4 className="text-lg font-semibold">
-                As a passionate web developer, I master the Angular, React and
-                Electron Frameworks.
+                As a passionate web developer, I master the Angular, React
+                Frameworks.
               </h4>
               <div className="skill-icons">
                 <div className="skill-icon-item">
@@ -113,16 +111,6 @@ export default function Home() {
                     height={60}
                   />
                   <h5 className="font-heavy">React</h5>
-                </div>
-                <div className="skill-icon-item">
-                  <Image
-                    src="/skill/electron.webp"
-                    alt="Electron logo"
-                    loading="lazy"
-                    width={50}
-                    height={50}
-                  />
-                  <h5 className="font-heavy">Electron</h5>
                 </div>
               </div>
             </div>
@@ -168,8 +156,8 @@ export default function Home() {
             <div className="skill-item">
               <h3 className="title-2 font-heavy">Backend Development</h3>
               <h4 className="text-lg font-semibold">
-                With Java and Spring for APIs, Python for speed and C++/C# for
-                complex systems, I design solid backend architectures.
+                With Java and Spring for APIs, C++ for complex systems, I design
+                solid backend architectures.
               </h4>
               <div className="skill-icons">
                 <div className="skill-icon-item">
@@ -202,16 +190,6 @@ export default function Home() {
                   />
                   <h5 className="font-heavy">C++</h5>
                 </div>
-                <div className="skill-icon-item">
-                  <Image
-                    src="/skill/csharp.webp"
-                    alt="C# logo"
-                    loading="lazy"
-                    width={50}
-                    height={50}
-                  />
-                  <h5 className="font-heavy">C#</h5>
-                </div>
               </div>
             </div>
           </div>
@@ -231,11 +209,11 @@ export default function Home() {
                 },
                 {
                   href: 'https://github.com/ian-ledig/flight-tracker-cs',
-                  image: '/project/icon/github.webp',
+                  image: '/project/icon/client.webp',
                 },
                 {
                   href: 'https://github.com/ian-ledig/flight-tracker-ss',
-                  image: '/project/icon/github.webp',
+                  image: '/project/icon/server.webp',
                 },
               ]}
             />

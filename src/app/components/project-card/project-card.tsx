@@ -52,8 +52,8 @@ const ProjectCardComponent = ({
                     src={link.image}
                     alt={`${title} icon`}
                     loading="lazy"
-                    width={40}
-                    height={40}
+                    width={30}
+                    height={30}
                   />
                 </a>
               ))}
