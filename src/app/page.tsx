@@ -1,13 +1,15 @@
+'use client'
+
 import Head from 'next/head';
 import Image from 'next/image';
 import NavigationBarComponent from './components/navigation-bar/navigation-bar';
 import RandomTextComponent from './components/random-text/random-text';
-import InkImageComponent from './components/ink-image/ink-image';
 import CollaborationComponent from './components/collaboration/collaboration';
 import ProjectCardComponent from './components/project-card/project-card';
 import ContactComponent from './components/contact/contact';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import './home.css';
+import ThreeScene from './components/home-3d/page';
 
 export default function Home() {
   return (
@@ -29,7 +31,8 @@ export default function Home() {
       <main className="body" id="home">
         <section className="home" aria-labelledby="home-title">
           <div className="home-picture">
-            <InkImageComponent src="/picture0.webp" alt="Sakurajima picture" />
+            {/* <InkImageComponent src="/picture0.webp" alt="Sakurajima picture" /> */}
+            <ThreeScene />
           </div>
           <aside className="profile-card">
             <div className="profile-card-picture">
