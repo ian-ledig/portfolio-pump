@@ -295,6 +295,22 @@ export default function Home() {
               links={[]}
             />
             <ProjectCardComponent
+              src="/project/flyffmaps.webp"
+              title="Flyff maps selling website."
+              description="Flyff maps selling website."
+              technologies={['React', 'Next.js']}
+              links={[
+                {
+                  href: 'https://flyff-maps.com/',
+                  image: '/project/icon/link.webp',
+                },
+                {
+                  href: 'https://github.com/ian-ledig/flyff-pump',
+                  image: '/project/icon/github.webp',
+                },
+              ]}
+            />
+            <ProjectCardComponent
               src="/project/grooveai.webp"
               title="Groove AI Music recognizer"
               description="Development of a music theme recognition application using AI and machine learning."
