@@ -3,10 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import './random-text.css';
 
-const words = [
-  'website for your business?',
-  'custom software?',
-];
+const words = ['website for your business?', 'custom software?'];
 
 const RandomTextComponent: React.FC = () => {
   const [part, setPart] = useState<string>('');
