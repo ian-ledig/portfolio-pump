@@ -51,9 +51,11 @@
 
     .skill {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         text-align: center;
         padding-bottom: 80px;
+        gap: 10vw;
+        align-items: center;
 
         .skill-item {
             display: flex;

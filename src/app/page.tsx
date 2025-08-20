@@ -115,45 +115,6 @@ export default function Home() {
               </div>
             </div>
             <div className="skill-item">
-              <h3 className="title-2 font-heavy">Mobile Development</h3>
-              <h4 className="text-lg font-semibold">
-                As a mobile development specialist, I combine Ionic with native
-                environments to create tailor-made applications for each users.
-              </h4>
-              <div className="skill-icons">
-                <div className="skill-icon-item">
-                  <Image
-                    src="/skill/ionic.webp"
-                    alt="Ionic logo"
-                    loading="lazy"
-                    width={52}
-                    height={52}
-                  />
-                  <h5 className="font-heavy">Ionic</h5>
-                </div>
-                <div className="skill-icon-item">
-                  <Image
-                    src="/skill/android.webp"
-                    alt="Android logo"
-                    loading="lazy"
-                    width={50}
-                    height={50}
-                  />
-                  <h5 className="font-heavy">Android</h5>
-                </div>
-                <div className="skill-icon-item">
-                  <Image
-                    src="/skill/apple.webp"
-                    alt="Apple logo"
-                    loading="lazy"
-                    width={44}
-                    height={44}
-                  />
-                  <h5 className="font-heavy">Apple</h5>
-                </div>
-              </div>
-            </div>
-            <div className="skill-item">
               <h3 className="title-2 font-heavy">Backend Development</h3>
               <h4 className="text-lg font-semibold">
                 With Java and Spring for APIs, C++ for complex systems, I design
