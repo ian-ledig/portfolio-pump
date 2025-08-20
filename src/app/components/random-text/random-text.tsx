@@ -6,7 +6,6 @@ import './random-text.css';
 const words = [
   'website for your business?',
   'custom software?',
-  'mobile application for IOS and Android?',
 ];
 
 const RandomTextComponent: React.FC = () => {

@@ -179,6 +179,18 @@ export default function Home() {
               ]}
             />
             <ProjectCardComponent
+              src="/project/alysiaonline.webp"
+              title="Alysia Online MMORPG"
+              description="• Develop a modernized version of Flyff MMO game, with 3,500+ concurrent users. Design and implement server load balancing, concurrent access control and secure client-server communication protocols. Collaborate with a team to deliver new gameplay systems and ensure code quality through reviews and mentoring."
+              technologies={['C++', 'SQL']}
+              links={[
+                {
+                  href: 'http://discord.gg/alysia-online',
+                  image: '/project/icon/discord.webp',
+                },
+              ]}
+            />
+            <ProjectCardComponent
               src="/project/airfrance.webp"
               title="Airport Flight Consultation"
               description="Development of a flight, passenger, baggage consultation application for airport agents. Including architecture, development, testing, deployment and production release on the cloud."
@@ -247,13 +259,6 @@ export default function Home() {
                   image: '/project/icon/github.webp',
                 },
               ]}
-            />
-            <ProjectCardComponent
-              src="/project/alysiaonline.webp"
-              title="Alysia Online MMORPG"
-              description="Modernizing a older open-source multiplayer game by incorporating current industry gameplay standards, mechanics and optimized the codebase to align with contemporary user expectations and performance benchmarks."
-              technologies={['C++', 'SQL']}
-              links={[]}
             />
             <ProjectCardComponent
               src="/project/flyffmaps.webp"
